@@ -1,0 +1,182 @@
+{
+  "scope": "Stage 16 design/document/data verification only; no installed-skill or campaign execution",
+  "mode": "final",
+  "result": "PASS",
+  "check_count": 39,
+  "checks": [
+    {
+      "check": "Exactly fifteen ordered unique primary records",
+      "result": "PASS"
+    },
+    {
+      "check": "Exactly three at each level in the specified progression",
+      "result": "PASS"
+    },
+    {
+      "check": "One complete text prompt per primary example",
+      "result": "PASS"
+    },
+    {
+      "check": "Every design has learning, acceptance and adverse-review contracts",
+      "result": "PASS"
+    },
+    {
+      "check": "Every prompt includes its own synthetic facts and local output scope",
+      "result": "PASS"
+    },
+    {
+      "check": "Every prompt binds actual artefacts and evaluation without implicit paid action",
+      "result": "PASS"
+    },
+    {
+      "check": "All skill activations match level responsibilities",
+      "result": "PASS"
+    },
+    {
+      "check": "No prompt depends on copying facts from another example",
+      "result": "PASS"
+    },
+    {
+      "check": "All three canonical L5 cases are retained and synthetic",
+      "result": "PASS"
+    },
+    {
+      "check": "Actual media is required at the declared fidelity",
+      "result": "PASS"
+    },
+    {
+      "check": "E04 has a controlled always-visible changed headline",
+      "result": "PASS"
+    },
+    {
+      "check": "E05 bounds opening and fixes the shared body",
+      "result": "PASS"
+    },
+    {
+      "check": "App retained-use windows have exact boundaries and anchors",
+      "result": "PASS"
+    },
+    {
+      "check": "E10 derives 24 raw, six distinct, four qualified outcomes",
+      "result": "PASS"
+    },
+    {
+      "check": "E10 retains the strict fourteen-day boundary",
+      "result": "PASS"
+    },
+    {
+      "check": "E11 actual prompt data reproduce aggregate, context, standardised and cost oracles",
+      "result": "PASS"
+    },
+    {
+      "check": "E12 is core-only and supplies the inclusive mathematical refund rule",
+      "result": "PASS"
+    },
+    {
+      "check": "E13 prompt data preserve negative first-cycle contribution and limited effect",
+      "result": "PASS"
+    },
+    {
+      "check": "E14 preserves quote-only pricing, capacity and descriptive evidence",
+      "result": "PASS"
+    },
+    {
+      "check": "E15 retains two price paths, units and unknown net value",
+      "result": "PASS"
+    },
+    {
+      "check": "Candidate pool contains 25 alternatives and exactly fifteen unique selections",
+      "result": "PASS"
+    },
+    {
+      "check": "All twenty-two original coverage dimensions have mapped rows",
+      "result": "PASS"
+    },
+    {
+      "check": "Inherited nine formats remain explicit and associated with primary examples",
+      "result": "PASS"
+    },
+    {
+      "check": "Every example has a recorded substantive inspection",
+      "result": "PASS"
+    },
+    {
+      "check": "Stage progression preserves future work as unstarted",
+      "result": "PASS"
+    },
+    {
+      "check": "Design does not claim performed installed or media execution",
+      "result": "PASS"
+    },
+    {
+      "check": "Markdown fences and table widths are balanced",
+      "result": "PASS"
+    },
+    {
+      "check": "Every named and local documentation reference resolves",
+      "result": "PASS"
+    },
+    {
+      "check": "Final acceptance and substantive exit are present",
+      "result": "PASS"
+    },
+    {
+      "check": "Every mandatory conformance row passes",
+      "result": "PASS"
+    },
+    {
+      "check": "Negative mutation rejected: missing primary example",
+      "result": "PASS"
+    },
+    {
+      "check": "Negative mutation rejected: wrong level distribution",
+      "result": "PASS"
+    },
+    {
+      "check": "Negative mutation rejected: missing prompt synthetic label",
+      "result": "PASS"
+    },
+    {
+      "check": "Negative mutation rejected: uncontrolled search assembly",
+      "result": "PASS"
+    },
+    {
+      "check": "Negative mutation rejected: incorrect duplicate count",
+      "result": "PASS"
+    },
+    {
+      "check": "Negative mutation rejected: changed within-context rate",
+      "result": "PASS"
+    },
+    {
+      "check": "Negative mutation rejected: inconsistent core-only selection",
+      "result": "PASS"
+    },
+    {
+      "check": "Negative mutation rejected: duplicate selected candidate",
+      "result": "PASS"
+    },
+    {
+      "check": "Negative mutation rejected: broken local source link",
+      "result": "PASS"
+    }
+  ],
+  "primary_examples": 15,
+  "levels": {
+    "L1": 3,
+    "L2": 3,
+    "L3": 3,
+    "L4": 3,
+    "L5": 3
+  },
+  "complete_prompts": 15,
+  "candidate_pool": 25,
+  "coverage_dimensions": 22,
+  "negative_mutations": 9,
+  "input_blobs": {
+    "docs/research-logs/2026-09-10-stage-16-example-designs-and-prompts.md": "b964a4e3fc58c5d59888f25ce7bd4f6d903da592",
+    "docs/research-logs/2026-09-10-stage-16-progressive-example-levels.md": "d4fb8f1060b085373f60df3caa77254cc48c5148",
+    "docs/research-logs/README.md": "13fb5ad222ee0770630dadeee63000767a96002e",
+    "docs/research-logs/2026-09-10-stage-16-verify.py": "16eebb49da3dd1345a66d98ae6b27661419cb3d5"
+  }
+}
