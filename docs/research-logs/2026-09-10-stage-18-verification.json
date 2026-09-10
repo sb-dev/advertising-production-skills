@@ -1,0 +1,218 @@
+{
+  "scope": "Stage 18 design/inventory checks only",
+  "runtime_execution_state": "not-run",
+  "checks": [
+    {
+      "check": "Correct stage/design schema",
+      "result": "PASS"
+    },
+    {
+      "check": "No fabricated runtime results",
+      "result": "PASS"
+    },
+    {
+      "check": "Verified Stage 17 predecessor",
+      "result": "PASS"
+    },
+    {
+      "check": "All twelve original independent dimensions",
+      "result": "PASS"
+    },
+    {
+      "check": "Complete pinned source identities",
+      "result": "PASS"
+    },
+    {
+      "check": "Original authority and corrected FDE authority retained",
+      "result": "PASS"
+    },
+    {
+      "check": "Exactly fifteen ordered primary examples",
+      "result": "PASS"
+    },
+    {
+      "check": "Exactly three examples at each original level",
+      "result": "PASS"
+    },
+    {
+      "check": "Complete primary prompt/output/oracle bindings",
+      "result": "PASS"
+    },
+    {
+      "check": "Required actual modalities and output profiles retained",
+      "result": "PASS"
+    },
+    {
+      "check": "Core-only and non-composed pack selections preserved",
+      "result": "PASS"
+    },
+    {
+      "check": "Primary dimension mappings resolve",
+      "result": "PASS"
+    },
+    {
+      "check": "All eight selected pack identities",
+      "result": "PASS"
+    },
+    {
+      "check": "Twenty-four distinct pack observables",
+      "result": "PASS"
+    },
+    {
+      "check": "Exact matched source-prompt selectors",
+      "result": "PASS"
+    },
+    {
+      "check": "All sixteen inspected negative texts unchanged",
+      "result": "PASS"
+    },
+    {
+      "check": "Exactly three active stress prompts, corrected FDE only",
+      "result": "PASS"
+    },
+    {
+      "check": "All nineteen original-obligation pairs",
+      "result": "PASS"
+    },
+    {
+      "check": "Positive expectations and smallest-repair contracts for every pair",
+      "result": "PASS"
+    },
+    {
+      "check": "All fifty-four independently stated adverse alternatives retained",
+      "result": "PASS"
+    },
+    {
+      "check": "Six complete cross-contract case definitions",
+      "result": "PASS"
+    },
+    {
+      "check": "Two actual-owning-skill authoring case contracts",
+      "result": "PASS"
+    },
+    {
+      "check": "Complete first vertical and offline test-preflight contract",
+      "result": "PASS"
+    },
+    {
+      "check": "Clock, backlog and stale-policy defects retain four mutation trials",
+      "result": "PASS"
+    },
+    {
+      "check": "All thirty-three original/accepted command contracts mapped",
+      "result": "PASS"
+    },
+    {
+      "check": "Exact four-skill ownership distribution",
+      "result": "PASS"
+    },
+    {
+      "check": "Every command maps to an actual designed evidence case",
+      "result": "PASS"
+    },
+    {
+      "check": "Four independent skills and both installation routes",
+      "result": "PASS"
+    },
+    {
+      "check": "Lower-trust wrapper retains authority and preservation",
+      "result": "PASS"
+    },
+    {
+      "check": "Exact expanded suite counts with unique case IDs",
+      "result": "PASS"
+    },
+    {
+      "check": "All source identities verified against local bytes or explicit verified remote metadata",
+      "result": "PASS"
+    },
+    {
+      "check": "Available stress source prompts extracted; absent bodies explicitly metadata-only",
+      "result": "PASS"
+    },
+    {
+      "check": "All dimension, conformance, provenance and execution-boundary sections present",
+      "result": "PASS"
+    },
+    {
+      "check": "Markdown fences, table widths, named/local paths and verifier syntax pass",
+      "result": "PASS"
+    },
+    {
+      "check": "Final acceptance and exit have no draft markers",
+      "result": "PASS"
+    },
+    {
+      "check": "Negative mutation rejected: missing example",
+      "result": "PASS"
+    },
+    {
+      "check": "Negative mutation rejected: wrong level",
+      "result": "PASS"
+    },
+    {
+      "check": "Negative mutation rejected: missing actual WAV",
+      "result": "PASS"
+    },
+    {
+      "check": "Negative mutation rejected: changed pack negative",
+      "result": "PASS"
+    },
+    {
+      "check": "Negative mutation rejected: missing stress alternative",
+      "result": "PASS"
+    },
+    {
+      "check": "Negative mutation rejected: old FDE prompt",
+      "result": "PASS"
+    },
+    {
+      "check": "Negative mutation rejected: missing command",
+      "result": "PASS"
+    },
+    {
+      "check": "Negative mutation rejected: invented runtime pass",
+      "result": "PASS"
+    },
+    {
+      "check": "Negative mutation rejected: missing dimension",
+      "result": "PASS"
+    },
+    {
+      "check": "Negative mutation rejected: missing remote install route",
+      "result": "PASS"
+    },
+    {
+      "check": "Negative mutation rejected: duplicate cross case",
+      "result": "PASS"
+    },
+    {
+      "check": "Negative mutation rejected: missing first vertical",
+      "result": "PASS"
+    }
+  ],
+  "count": 47,
+  "negative_mutations": 12,
+  "suite_counts": {
+    "primary": 15,
+    "packs": 48,
+    "stress": 79,
+    "author": 2,
+    "regression": 4,
+    "vertical": 1,
+    "installation": 8
+  },
+  "metadata_only_source_paths": [
+    "docs/research-logs/2026-09-08-advertising-production-skills-new-project-bootstrap-process.md",
+    "docs/research-logs/2026-09-10-stage-14-core-skills-command-contracts.md",
+    "docs/research-logs/2026-09-10-stage-15-extension-packs-pack-authoring.md",
+    "docs/research-logs/2026-09-10-stage-16-example-designs-and-prompts.md",
+    "docs/research-logs/2026-09-10-stage-17-canonical-advertising-stress-tests.md"
+  ],
+  "input_blobs": {
+    "docs/research-logs/2026-09-10-stage-18-evaluation-benchmark-regression-design.md": "4e6c627a22927393b365066a2a7cf96d6d136c4a",
+    "docs/research-logs/2026-09-10-stage-18-fixture-catalogue.json": "ea4789ce26599b47c2153f970701aef2d7456877",
+    "docs/research-logs/2026-09-10-stage-18-verify.py": "95382d04f77ffa9bbee91999f1b680ccecafe83b",
+    "docs/research-logs/README.md": "42c81c0b6cf72cc25bc138f215d160f4e5e98285"
+  }
+}
