@@ -30,7 +30,8 @@ Governing contract: [original bootstrap](2026-09-08-advertising-production-skill
 |---|---|---|---|
 | 0: Bootstrap workspace | PASS: already satisfied on clean main | Stage 1 log, clean-start verification; baseline initial commit | Working branch verified at the exact baseline |
 | 1: Domain boundaries | PASS | [Complete boundary decisions and conformance](2026-09-10-stage-01-domain-boundaries.md) | Remote commit `81eeb75e46506817e403c2e3ee9653ab7bc78506`, parent, tree and intended file hashes verified |
-| 2: Professional advertising practice | PASS | [22-discipline research and conformance](2026-09-10-stage-02-professional-advertising-practice.md); [35-source register](2026-09-10-stage-02-source-register.md) | Commit message: `docs: complete stage 2 professional advertising research`; verify remote SHA and intended files before proceeding |
-| 3–27 | NOT STARTED | No completion claimed | Each stage requires its own acceptance, commit and remote verification |
+| 2: Professional advertising practice | PASS | [22-discipline research and conformance](2026-09-10-stage-02-professional-advertising-practice.md); [35-source register](2026-09-10-stage-02-source-register.md) | Remote commit `5efd2006ceae24aef4458575fe73f16a608e273d`, parent, tree and intended file hashes verified |
+| 3: Campaign brief, audience and objective | PASS | [Complete brief model, scoped authority and conformance](2026-09-10-stage-03-campaign-brief-audience-objective-model.md) | Commit message: `docs: complete stage 3 campaign brief audience and objective model`; verify remote SHA and intended files before proceeding |
+| 4–27 | NOT STARTED | No completion claimed | Each stage requires its own acceptance, commit and remote verification |
 
 Project maturity remains bootstrap research. No production scaffold, installed skill, benchmarked capability, live campaign, release or PR readiness is claimed.
