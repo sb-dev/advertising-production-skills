@@ -1,0 +1,356 @@
+{
+  "stage": 20,
+  "accepted_commit": "52ac42125811b69f076ce7d3290e65b55d6eb658",
+  "accepted_tree": "6d016aeb93e1ea0047e141122e6a0658b5826525",
+  "bootstrap_blob": "f72a6f167595d6f178550fb1e02c4885d875b6b2",
+  "baseline_files": {
+    "README.md": {
+      "sha": "5051a69cfefc65f62565fb8c1f58de1c32bdf88d",
+      "mode": "100644"
+    },
+    "docs/research-logs/2026-09-08-advertising-production-skills-new-project-bootstrap-process.md": {
+      "sha": "f72a6f167595d6f178550fb1e02c4885d875b6b2",
+      "mode": "100644"
+    },
+    "docs/research-logs/2026-09-10-stage-01-domain-boundaries.md": {
+      "sha": "38a353f175eaa31cbcb0a7968458225adbe098e2",
+      "mode": "100644"
+    },
+    "docs/research-logs/2026-09-10-stage-02-professional-advertising-practice.md": {
+      "sha": "d11bf3189905b49bb4ef09db91a522b5c7c08a37",
+      "mode": "100644"
+    },
+    "docs/research-logs/2026-09-10-stage-02-source-register.md": {
+      "sha": "88d84faa1ee080d64089d4d6117e70fa5fe307b9",
+      "mode": "100644"
+    },
+    "docs/research-logs/2026-09-10-stage-03-campaign-brief-audience-objective-model.md": {
+      "sha": "4f0881b53397ec1229fd882d77c2f4a5671f2aa8",
+      "mode": "100644"
+    },
+    "docs/research-logs/2026-09-10-stage-04-message-claim-proof-creative-strategy-model.md": {
+      "sha": "132a8fb32bd0f96516f4fdc94617946a79c46c6f",
+      "mode": "100644"
+    },
+    "docs/research-logs/2026-09-10-stage-05-creative-production-cross-format-adaptation.md": {
+      "sha": "a3856d384400ac3f96f767b0c0dcf925af3336b9",
+      "mode": "100644"
+    },
+    "docs/research-logs/2026-09-10-stage-05-source-register.md": {
+      "sha": "d4282b19a55f250fc6377373922db90276dd288f",
+      "mode": "100644"
+    },
+    "docs/research-logs/2026-09-10-stage-06-media-placement-targeting-budget-model.md": {
+      "sha": "f98c5069eefaf762c19fab61eba0b782491c417c",
+      "mode": "100644"
+    },
+    "docs/research-logs/2026-09-10-stage-07-destination-cross-domain-handoffs.md": {
+      "sha": "9fc9927ff172e546af629aaa6110bf90f9f1aea9",
+      "mode": "100644"
+    },
+    "docs/research-logs/2026-09-10-stage-08-experiment-measurement-attribution-model.md": {
+      "sha": "05c9bfbbd6bf2315056ab2b8d27d6d063513bafc",
+      "mode": "100644"
+    },
+    "docs/research-logs/2026-09-10-stage-08-source-register.md": {
+      "sha": "a6da746c841e79f32b4b7b9c12866f3c55bcbb03",
+      "mode": "100644"
+    },
+    "docs/research-logs/2026-09-10-stage-09-optimisation-fatigue-campaign-learning-model.md": {
+      "sha": "8940230b909433eed8eceea82579441afcd41fdf",
+      "mode": "100644"
+    },
+    "docs/research-logs/2026-09-10-stage-10-legal-standards-platform-policy-handoffs.md": {
+      "sha": "21b5a2776e92ecc3e82503315760323e412c0f13",
+      "mode": "100644"
+    },
+    "docs/research-logs/2026-09-10-stage-10-source-register.md": {
+      "sha": "d0c5022df7637cd1ab8a2fce24c2d6a243ad23ba",
+      "mode": "100644"
+    },
+    "docs/research-logs/2026-09-10-stage-11-ai-skills-platforms-tools-research.md": {
+      "sha": "1ed70329d62702ad6593437cb7be7535e7580a3e",
+      "mode": "100644"
+    },
+    "docs/research-logs/2026-09-10-stage-11-source-register.md": {
+      "sha": "90942bcf00f81ec5a3e9493a99ea6342727b956a",
+      "mode": "100644"
+    },
+    "docs/research-logs/2026-09-10-stage-12-execution-layer-tool-boundaries.md": {
+      "sha": "a2ea3549191b1b4ddbe549b99d6cc166374a4779",
+      "mode": "100644"
+    },
+    "docs/research-logs/2026-09-10-stage-13-capability-gaps-over-engineering-guardrails.md": {
+      "sha": "7eb3d2343fc28aead8c90b6422ca29ebce36167d",
+      "mode": "100644"
+    },
+    "docs/research-logs/2026-09-10-stage-14-core-skills-command-contracts.md": {
+      "sha": "e3ccf114c94a938fe53378619bbed77c9f6dcb46",
+      "mode": "100644"
+    },
+    "docs/research-logs/2026-09-10-stage-15-extension-packs-pack-authoring.md": {
+      "sha": "40c85029ba20fee6762879e801f1daa819428b9e",
+      "mode": "100644"
+    },
+    "docs/research-logs/2026-09-10-stage-15-source-register.md": {
+      "sha": "fab37acee3975bb4b4993013d78f2b7dbe61c310",
+      "mode": "100644"
+    },
+    "docs/research-logs/2026-09-10-stage-16-example-designs-and-prompts.md": {
+      "sha": "b964a4e3fc58c5d59888f25ce7bd4f6d903da592",
+      "mode": "100644"
+    },
+    "docs/research-logs/2026-09-10-stage-16-progressive-example-levels.md": {
+      "sha": "d4fb8f1060b085373f60df3caa77254cc48c5148",
+      "mode": "100644"
+    },
+    "docs/research-logs/2026-09-10-stage-16-verification.json": {
+      "sha": "68127f971f29b98edcdf6ddd98a3e7bb4b91cf06",
+      "mode": "100644"
+    },
+    "docs/research-logs/2026-09-10-stage-16-verify.py": {
+      "sha": "16eebb49da3dd1345a66d98ae6b27661419cb3d5",
+      "mode": "100644"
+    },
+    "docs/research-logs/2026-09-10-stage-17-acceptance.md": {
+      "sha": "795ce06386f2265a6390460d0b1263bbb21bf99f",
+      "mode": "100644"
+    },
+    "docs/research-logs/2026-09-10-stage-17-canonical-advertising-stress-tests.md": {
+      "sha": "b5b1aab0fd2bc534a7a5bdff7d5126d3a63a6840",
+      "mode": "100644"
+    },
+    "docs/research-logs/2026-09-10-stage-17-oracle-check.py": {
+      "sha": "393b46e528a002ee9a3c5c498dbcaf903c994dd1",
+      "mode": "100644"
+    },
+    "docs/research-logs/2026-09-10-stage-18-evaluation-benchmark-regression-design.md": {
+      "sha": "4e6c627a22927393b365066a2a7cf96d6d136c4a",
+      "mode": "100644"
+    },
+    "docs/research-logs/2026-09-10-stage-18-fixture-catalogue.json": {
+      "sha": "ea4789ce26599b47c2153f970701aef2d7456877",
+      "mode": "100644"
+    },
+    "docs/research-logs/2026-09-10-stage-18-verification.json": {
+      "sha": "43c9bccdee13fe5ea7224c89b831ab7d320492a7",
+      "mode": "100644"
+    },
+    "docs/research-logs/2026-09-10-stage-18-verify.py": {
+      "sha": "95382d04f77ffa9bbee91999f1b680ccecafe83b",
+      "mode": "100644"
+    },
+    "docs/research-logs/README.md": {
+      "mode": "100644",
+      "sha": "6b0ae93ddf370a09d57835081922e0c62ef61ae4"
+    },
+    "docs/03-advertising-production-skills-repository-and-contracts-spec.md": {
+      "mode": "100644",
+      "sha": "1b0c9012773538baaa0afc5b16af201b8b6dc8b9"
+    },
+    "docs/05-advertising-production-customisation-packs-spec.md": {
+      "mode": "100644",
+      "sha": "2798cd4695ad16f2593b0be890bf446bfa526023"
+    },
+    "docs/01-advertising-production-skills-system-spec.md": {
+      "mode": "100644",
+      "sha": "7730ec92caffc5f67db7c2a983f78ef8ef5ec296"
+    },
+    "docs/02-advertising-production-skills-workflows-and-artifacts-spec.md": {
+      "mode": "100644",
+      "sha": "91f824e9dc56be9be56c305246707b6513f71d21"
+    },
+    "docs/06-advertising-production-extension-pack-catalogue.md": {
+      "mode": "100644",
+      "sha": "30e7b9afddd70d3de3178cd28aeb7e1195651406"
+    },
+    "docs/04-testing-and-benchmark-spec.md": {
+      "mode": "100644",
+      "sha": "d0da8907b12fe6dbdfb8dda386aa5972a99712c7"
+    },
+    "docs/research-logs/2026-09-10-stage-19-source-contracts.json": {
+      "mode": "100644",
+      "sha": "14bbd339d3382760a90e3475c5277fcb06f1cf99"
+    },
+    "docs/research-logs/2026-09-10-stage-19-verification.json": {
+      "mode": "100644",
+      "sha": "0ffc74fcaf888c8bfb746702c126afb3487252a3"
+    },
+    "docs/research-logs/2026-09-10-stage-19-six-canonical-specifications.md": {
+      "mode": "100644",
+      "sha": "3b9426bf7148bce321506e1cc2f0268b9c83705b"
+    },
+    "docs/research-logs/2026-09-10-stage-19-verify.py": {
+      "mode": "100644",
+      "sha": "8331221684d4f7c69f91d980b170e5ee0033f048"
+    }
+  },
+  "examples_source": {
+    "path": "docs/research-logs/2026-09-10-stage-16-example-designs-and-prompts.md",
+    "blob": "b964a4e3fc58c5d59888f25ce7bd4f6d903da592",
+    "access": "Relevant connector-returned sections and headings, not a locally mounted whole source",
+    "headings": [
+      "E01. Local inspection search unit",
+      "E02. Recurring price in a static unit",
+      "E03. A screenless B2B response",
+      "E04. A controlled search-copy comparison",
+      "E05. Creator-native opening test",
+      "E06. Brand-linked display test",
+      "E07. One brand idea across display, CTV and audio",
+      "E08. Qualification-led B2B campaign",
+      "E09. App availability, store promise and first useful action",
+      "E10. Retargeting report with duplicate and ineligible outcomes",
+      "E11. Apparent fatigue caused by a changed delivery mix",
+      "E12. Repair a destination without changing the accepted advertisement",
+      "E13. Kakeibo consumer subscription launch thesis",
+      "E14. One-person FDE consultancy thesis",
+      "E15. Production Skills ecosystem adoption and commercial thesis"
+    ]
+  },
+  "examples": [
+    {
+      "id": "E01",
+      "level": "L1",
+      "heading": "E01. Local inspection search unit",
+      "anchor": "e01-local-inspection-search-unit",
+      "lesson": "Exact search copy; inspection price is not repair pricing."
+    },
+    {
+      "id": "E02",
+      "level": "L1",
+      "heading": "E02. Recurring price in a static unit",
+      "anchor": "e02-recurring-price-in-a-static-unit",
+      "lesson": "SVG and PNG; recurring terms remain readable, without a false free trial."
+    },
+    {
+      "id": "E03",
+      "level": "L1",
+      "heading": "E03. A screenless B2B response",
+      "anchor": "e03-a-screenless-b2b-response",
+      "lesson": "Actual WAV and listening review; a free fit call is not free implementation."
+    },
+    {
+      "id": "E04",
+      "level": "L2",
+      "heading": "E04. A controlled search-copy comparison",
+      "anchor": "e04-a-controlled-search-copy-comparison",
+      "lesson": "Two complete search bundles; change only the opening headline."
+    },
+    {
+      "id": "E05",
+      "level": "L2",
+      "heading": "E05. Creator-native opening test",
+      "anchor": "e05-creator-native-opening-test",
+      "lesson": "Two actual vertical videos; preserve the identical shared body."
+    },
+    {
+      "id": "E06",
+      "level": "L2",
+      "heading": "E06. Brand-linked display test",
+      "anchor": "e06-brand-linked-display-test",
+      "lesson": "Two display treatments; measure the intended brand association."
+    },
+    {
+      "id": "E07",
+      "level": "L3",
+      "heading": "E07. One brand idea across display, CTV and audio",
+      "anchor": "e07-one-brand-idea-across-display-ctv-and-audio",
+      "lesson": "Display, CTV and audio; preserve meaning across clickable and screenless contexts."
+    },
+    {
+      "id": "E08",
+      "level": "L3",
+      "heading": "E08. Qualification-led B2B campaign",
+      "anchor": "e08-qualification-led-b2b-campaign",
+      "lesson": "Search, sponsored editorial and display; qualify demand against scope and capacity."
+    },
+    {
+      "id": "E09",
+      "level": "L3",
+      "heading": "E09. App availability, store promise and first useful action",
+      "anchor": "e09-app-availability-store-promise-and-first-useful-action",
+      "lesson": "Carousel, video, store and first use; repair an availability delay."
+    },
+    {
+      "id": "E10",
+      "level": "L4",
+      "heading": "E10. Retargeting report with duplicate and ineligible outcomes",
+      "anchor": "e10-retargeting-report-with-duplicate-and-ineligible-outcomes",
+      "lesson": "Reconcile duplicate and ineligible outcomes before changing creative."
+    },
+    {
+      "id": "E11",
+      "level": "L4",
+      "heading": "E11. Apparent fatigue caused by a changed delivery mix",
+      "anchor": "e11-apparent-fatigue-caused-by-a-changed-delivery-mix",
+      "lesson": "Separate delivery-mix change from unsupported fatigue conclusions."
+    },
+    {
+      "id": "E12",
+      "level": "L4",
+      "heading": "E12. Repair a destination without changing the accepted advertisement",
+      "anchor": "e12-repair-a-destination-without-changing-the-accepted-advertisement",
+      "lesson": "Correct the offline destination while preserving the accepted advertisement."
+    },
+    {
+      "id": "E13",
+      "level": "L5",
+      "heading": "E13. Kakeibo consumer subscription launch thesis",
+      "anchor": "e13-kakeibo-consumer-subscription-launch-thesis",
+      "lesson": "Full synthetic subscription campaign, retained-value readout and claim repair."
+    },
+    {
+      "id": "E14",
+      "level": "L5",
+      "heading": "E14. One-person FDE consultancy thesis",
+      "anchor": "e14-one-person-fde-consultancy-thesis",
+      "lesson": "Full synthetic B2B campaign, proof limits, qualification and sales lag."
+    },
+    {
+      "id": "E15",
+      "level": "L5",
+      "heading": "E15. Production Skills ecosystem adoption and commercial thesis",
+      "anchor": "e15-production-skills-ecosystem-adoption-and-commercial-thesis",
+      "lesson": "Separate synthetic adoption and paid-education paths, outcomes and repair."
+    }
+  ],
+  "quick_start_prompt": "Use advertising-build with local-service-lead-generation, then advertising-evaluate, for E01 in production/advertising/E01.\n\nThis is a SYNTHETIC teaching exercise. Everything below is supplied fixture truth only, not a real business, testimonial, approval or campaign result. You may create the requested local artefacts. No paid generation, external upload, publication, account change, customer contact or media spend is authorised.\n\nSYN-E01-OFFER@1: Cycle Check offers one bicycle inspection for GBP 25 total, one-off. A written assessment is included; repairs and parts are not included and require a separate quote. Service is available only to adults in fictional service zones A and B, Tuesday to Saturday, 09:00–17:00 local fixture time. Two inspection appointments can be accepted per day. A requested appointment is not confirmed until the operator replies. No speed, safety-certification, savings or repair-success claim is supported.\nSYN-E01-PROOF@1 consists of those supplied offer, service and capacity facts only. Brand: plain, helpful, no pressure. Audience hypothesis: adults seeking a local bicycle assessment; no evidence establishes its prevalence. Business objective: qualified inspection requests within capacity. Advertising objective: communicate the inspection and its limits accurately. No historical results exist.\nDestination fixture: cycle-check.example/details, represented locally by destination-copy.md. It must repeat the inspection price, separate repair quotation, zones, hours and request/confirmation distinction. It is not a deployed URL.\nExercise search profile: exactly 3 standalone headlines, each at most 30 characters including spaces, and exactly 2 descriptions, each at most 90 characters. All 3 x 2 headline/description combinations are possible. These are fixture constraints, not verified live platform limits.\n\nProduce brief.md with the relevant input/unknown/approval boundaries; claim-proof.md linking every material assertion to the two supplied records; ad-copy.md with the exact five strings and character counts; destination-copy.md; and evaluation.md inspecting all six possible combinations, commercial continuity and the CTA. Choose an appropriate truthful way to retain qualifications within the profile rather than hiding them in a destination alone. Record the actual audience hypothesis separately from the business segment and any proposed platform representation.\n\nUse a request-to-schedule CTA, not a guarantee of repair or availability. Do not broaden the zones, invent reviews or optimise to clicks. Identify the qualified-request event and capacity guardrail without claiming a tracking implementation. Prefer a compliant expression for review; do not manufacture human approval or launch readiness. Report actual local output paths and any unsatisfied requirement.",
+  "quick_start_sha256": "bb0dd8e62c1bf8f3400d4aeca130c7b70a26820af9b9c5241cb67a0b81353d8b",
+  "packs": [
+    "direct-response-performance-campaign",
+    "brand-awareness-campaign",
+    "b2b-demand-generation-campaign",
+    "consumer-app-acquisition-campaign",
+    "product-launch-campaign",
+    "retargeting-and-reengagement-campaign",
+    "local-service-lead-generation",
+    "creator-native-social-campaign"
+  ],
+  "topics": [
+    "positioning",
+    "capabilities",
+    "Business Building boundary",
+    "truthful/policy-aware advertising",
+    "installation",
+    "quick start",
+    "5x3 Learn by Producing",
+    "skills",
+    "packs",
+    "execution layer",
+    "measurement/optimisation",
+    "benchmarks",
+    "stress tests",
+    "docs",
+    "boundaries",
+    "contributing",
+    "licence"
+  ],
+  "source_urls": {
+    "W1": "https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes",
+    "W2": "https://pnpm.io/cli/pnx",
+    "W3": "https://agentskills.io/specification",
+    "W4": "https://github.com/vercel-labs/skills/blob/main/README.md"
+  },
+  "source_scope": "W1/W2/W3 official HTML read 10 September 2026. W4 issuer README lines 1–145 read through GitHub; blob 518ff9cf9eb25f6ec173678208107fdc769fb621. No installation test.",
+  "progress_prefix_sha256": "afb03c02a11078bec436bf7c01c5a9216678525e3f3e007d2210f6a703475e23"
+}

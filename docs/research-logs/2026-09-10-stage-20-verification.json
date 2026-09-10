@@ -1,0 +1,284 @@
+{
+  "stage": 20,
+  "scope": "README design, source projection, Markdown/reference and shell-syntax checks only",
+  "result": "PASS",
+  "checks": [
+    {
+      "check": "All required public sections and positioning",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "Current design-only status is explicit",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "Exactly fifteen ordered primary examples",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "Exactly three primary examples in each of five levels",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "Each example opens its inspected exact source heading",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "Complete E01 quick start matches inspected original",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "Quick start states actual named skill and pack prerequisites",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "Exactly four intended skills",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "Exactly eight selected pack grammars",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "Pack comparison is required rather than claimed complete",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "Actual media and inspection cannot be replaced by plans",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "Commercial and legal ownership retained",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "Distinct outcomes and scoped repair retained",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "All three source-aware stress subjects and corrected FDE retained",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "No invented licence or contributor infrastructure",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "No universal score or false runtime evidence",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "Ordinary use remains independent of Pactwright",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "Installer examples parse as shell without execution",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "Installer source/version/host guards and selected scope",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "Installation readiness limitation is adjacent and explicit",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "Balanced Markdown fences",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "Markdown tables have consistent columns",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "All local README targets and anchors resolve",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "Root adoption changes only local link locations",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "Rebasing preserves all prose and fenced content",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "Design remains well below GitHub README truncation limit",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "Predecessor complete tree reconstructs verified Stage 19",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "All locally present preceding files remain byte-identical",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "Actual root README is preserved",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "Stage 0-18 progress is byte-preserved",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "Progress records actual Stage 19 and leaves Stage 21 onward unstarted",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "Conformance covers all seventeen source topics",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "Research records and progress resolve all local links",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "Substantive design acceptance recorded",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "Mutation rejected: missing primary example",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "Mutation rejected: wrong level distribution",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "Mutation rejected: wrong prompt price",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "Mutation rejected: missing quick-start prerequisites",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "Mutation rejected: missing skill",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "Mutation rejected: wrong pack",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "Mutation rejected: unsupported current maturity",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "Mutation rejected: unverified install claimed ready",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "Mutation rejected: broken source anchor",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "Mutation rejected: missing specification target",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "Mutation rejected: invented licence",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "Mutation rejected: dropped actual media requirement",
+      "result": "PASS",
+      "detail": ""
+    }
+  ],
+  "count": 46,
+  "negative_mutations": 12,
+  "runtime_tests": "not-run",
+  "installer_execution": "not-run; bash -n syntax checks only",
+  "publication": "requires subsequent actual remote readback",
+  "metadata_only_prior_paths": [
+    "docs/research-logs/2026-09-08-advertising-production-skills-new-project-bootstrap-process.md",
+    "docs/research-logs/2026-09-10-stage-01-domain-boundaries.md",
+    "docs/research-logs/2026-09-10-stage-02-professional-advertising-practice.md",
+    "docs/research-logs/2026-09-10-stage-02-source-register.md",
+    "docs/research-logs/2026-09-10-stage-03-campaign-brief-audience-objective-model.md",
+    "docs/research-logs/2026-09-10-stage-04-message-claim-proof-creative-strategy-model.md",
+    "docs/research-logs/2026-09-10-stage-05-creative-production-cross-format-adaptation.md",
+    "docs/research-logs/2026-09-10-stage-05-source-register.md",
+    "docs/research-logs/2026-09-10-stage-06-media-placement-targeting-budget-model.md",
+    "docs/research-logs/2026-09-10-stage-07-destination-cross-domain-handoffs.md",
+    "docs/research-logs/2026-09-10-stage-08-experiment-measurement-attribution-model.md",
+    "docs/research-logs/2026-09-10-stage-08-source-register.md",
+    "docs/research-logs/2026-09-10-stage-09-optimisation-fatigue-campaign-learning-model.md",
+    "docs/research-logs/2026-09-10-stage-10-legal-standards-platform-policy-handoffs.md",
+    "docs/research-logs/2026-09-10-stage-10-source-register.md",
+    "docs/research-logs/2026-09-10-stage-11-ai-skills-platforms-tools-research.md",
+    "docs/research-logs/2026-09-10-stage-11-source-register.md",
+    "docs/research-logs/2026-09-10-stage-12-execution-layer-tool-boundaries.md",
+    "docs/research-logs/2026-09-10-stage-13-capability-gaps-over-engineering-guardrails.md",
+    "docs/research-logs/2026-09-10-stage-14-core-skills-command-contracts.md",
+    "docs/research-logs/2026-09-10-stage-15-extension-packs-pack-authoring.md",
+    "docs/research-logs/2026-09-10-stage-15-source-register.md",
+    "docs/research-logs/2026-09-10-stage-16-example-designs-and-prompts.md",
+    "docs/research-logs/2026-09-10-stage-16-progressive-example-levels.md",
+    "docs/research-logs/2026-09-10-stage-16-verification.json",
+    "docs/research-logs/2026-09-10-stage-16-verify.py",
+    "docs/research-logs/2026-09-10-stage-17-acceptance.md",
+    "docs/research-logs/2026-09-10-stage-17-canonical-advertising-stress-tests.md",
+    "docs/research-logs/2026-09-10-stage-17-oracle-check.py",
+    "docs/research-logs/2026-09-10-stage-18-evaluation-benchmark-regression-design.md",
+    "docs/research-logs/2026-09-10-stage-18-fixture-catalogue.json",
+    "docs/research-logs/2026-09-10-stage-18-verification.json",
+    "docs/research-logs/2026-09-10-stage-18-verify.py"
+  ],
+  "input_blobs": {
+    "docs/research-logs/2026-09-10-stage-20-public-readme.md": "47dd06043b7d49987aec41612325a57542d68e0d",
+    "docs/research-logs/2026-09-10-stage-20-inputs.json": "c3131be357b140333a4858e8b89d8e420e4975f6",
+    "docs/research-logs/2026-09-10-stage-20-readme-design.md": "9ec6fa6572dffd307bcf93a5ce78586b1d81b969",
+    "docs/research-logs/README.md": "0acd75273bfaf4d06f08b3e08b9107f73122b570",
+    "docs/research-logs/2026-09-10-stage-20-verify.py": "8375816f75913c96e46c35e91fc4256d2a2f9ac5"
+  }
+}
