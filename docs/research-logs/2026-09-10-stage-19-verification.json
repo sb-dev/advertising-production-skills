@@ -1,0 +1,446 @@
+{
+  "scope": "Stage 19 specification content, integrity and mutation checks only; no installed Agent Skills, generated media, live campaigns or installation tests",
+  "result": "PASS",
+  "publication": "NOT_VERIFIED",
+  "runtime_execution_state": "not-run",
+  "accepted_head": "a7f91beebc0418d0461ea8ba64d99a67fc55cbdb",
+  "accepted_tree": "4d0cfa9d245a0a8135966127f27d9307fa5cf7d1",
+  "count": 74,
+  "negative_mutations": 22,
+  "checks": [
+    {
+      "check": "Six exact canonical specification paths",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "Six complete versioned canonical document bodies",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "Six-specification ownership matrix and cross-links",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "Four skills and distinct external ownership",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "Complete BR.C model: 13 distinct records",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "Complete AU.A model: 3 distinct records",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "Complete ST.M model: 8 distinct records",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "Complete PR.P model: 6 distinct records",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "Complete MF.F model: 9 distinct records",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "Complete MD.M model: 11 distinct records",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "Complete JT.D model: 7 distinct records",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "Complete EX.T model: 9 distinct records",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "Complete LN.L model: 7 distinct records",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "Complete PC.P model: 10 distinct records",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "Evidence chain and independent knowledge/approval states",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "Authority, actual fidelity and unknown effects preserved",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "Five independent lifecycle facets retained",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "All external and Legal handoff fields retained",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "All 33 command blocks in accepted order",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "All 33 command contracts have substantive input/output/failure text",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "Exact skill ownership distribution 13/10/9/1",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "Registry and command owner definitions agree",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "Thirteen unique complete shared resource blocks",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "Every command resource resolves without sibling skill dependency",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "Extracted resource links are self-contained",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "Installed operation and helper implementation are not falsely claimed",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "Twelve independent evaluation dimension contracts",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "Fifteen primary examples with exact 5-by-3 progression",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "Actual output modalities and semantic boundaries retained",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "Exact inherited suite obligations and frozen source retained",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "Corrected FDE prompt, clock, backlog and cohort distinction retained",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "Owning-skill phases and fair comparison retained",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "Twelve pack fields and ten full authoring steps",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "Identical original precedence in contract and catalogue",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "All eight original pack IDs and slugs exactly once",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "All 88 pack-specific contract fields retain inspected source meaning/text",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "All 24 exact pack observables retained",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "All 16 exact negative inputs and expected repairs retained",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "All 16 complete copyable prompts match captured source text",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "All eight comparator pairs differ only in activation",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "Catalogue maturity and 48-condition obligations are truthful",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "All Markdown fences and table columns valid",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "All local file and named-reference targets resolve",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "All Stage 0-17 progress content is byte-preserved",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "Progress identifies verified Stage 18 and leaves later stages unstarted",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "Substantive conformance and honest publication gate recorded",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "Captured 35-file baseline reconstructs exact remote Git tree",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "Five recovered specification files match uploaded Git blobs",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "Available accepted baseline bodies remain unchanged",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "Source-body access is complete or explicitly partial",
+      "result": "PASS",
+      "detail": "34 old bodies use verified remote metadata"
+    },
+    {
+      "check": "Unavailable full source is not falsely claimed parsed",
+      "result": "PASS",
+      "detail": "Exact source/prompt comparison used connector content; optional whole-file re-extraction did not run"
+    },
+    {
+      "check": "No premature production scaffold introduced",
+      "result": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "Negative mutation rejected: remove sixth spec",
+      "result": "PASS",
+      "detail": "Six exact canonical specification paths"
+    },
+    {
+      "check": "Negative mutation rejected: remove brief area",
+      "result": "PASS",
+      "detail": "Complete BR.C model"
+    },
+    {
+      "check": "Negative mutation rejected: change command owner",
+      "result": "PASS",
+      "detail": "Exact skill ownership distribution"
+    },
+    {
+      "check": "Negative mutation rejected: remove command output contract",
+      "result": "PASS",
+      "detail": "All 33 command contracts"
+    },
+    {
+      "check": "Negative mutation rejected: break resource endpoint",
+      "result": "PASS",
+      "detail": "Thirteen unique"
+    },
+    {
+      "check": "Negative mutation rejected: reference unavailable resource",
+      "result": "PASS",
+      "detail": "Every command resource"
+    },
+    {
+      "check": "Negative mutation rejected: leak repository dependency into installed resource",
+      "result": "PASS",
+      "detail": "Extracted resource links"
+    },
+    {
+      "check": "Negative mutation rejected: drop dimension",
+      "result": "PASS",
+      "detail": "Twelve independent"
+    },
+    {
+      "check": "Negative mutation rejected: change example level",
+      "result": "PASS",
+      "detail": "Fifteen primary"
+    },
+    {
+      "check": "Negative mutation rejected: replace audio output",
+      "result": "PASS",
+      "detail": "Actual output modalities"
+    },
+    {
+      "check": "Negative mutation rejected: use obsolete FDE prompt",
+      "result": "PASS",
+      "detail": "Corrected FDE prompt"
+    },
+    {
+      "check": "Negative mutation rejected: reverse precedence",
+      "result": "PASS",
+      "detail": "Identical original precedence"
+    },
+    {
+      "check": "Negative mutation rejected: remove pack contract field",
+      "result": "PASS",
+      "detail": "All 88 pack-specific"
+    },
+    {
+      "check": "Negative mutation rejected: drop pack observable",
+      "result": "PASS",
+      "detail": "All 24 exact"
+    },
+    {
+      "check": "Negative mutation rejected: alter negative instruction",
+      "result": "PASS",
+      "detail": "All 16 exact negative"
+    },
+    {
+      "check": "Negative mutation rejected: alter one comparator fact",
+      "result": "PASS",
+      "detail": "All eight comparator"
+    },
+    {
+      "check": "Negative mutation rejected: truncate copyable prompt",
+      "result": "PASS",
+      "detail": "All 16 complete"
+    },
+    {
+      "check": "Negative mutation rejected: invent mature catalogue",
+      "result": "PASS",
+      "detail": "Catalogue maturity"
+    },
+    {
+      "check": "Negative mutation rejected: break documentation link",
+      "result": "PASS",
+      "detail": "All local file"
+    },
+    {
+      "check": "Negative mutation rejected: remove table column",
+      "result": "PASS",
+      "detail": "All Markdown"
+    },
+    {
+      "check": "Negative mutation rejected: rewrite accepted progress",
+      "result": "PASS",
+      "detail": "All Stage 0-17"
+    },
+    {
+      "check": "Negative mutation rejected: missing actual non-Markdown report path",
+      "result": "PASS",
+      "detail": ""
+    }
+  ],
+  "specifications": 6,
+  "commands": 33,
+  "resources": 13,
+  "packs": 8,
+  "complete_pack_prompts": 16,
+  "pack_observables": 24,
+  "pack_negative_inputs": 16,
+  "retained_suite_obligations": {
+    "primary": 15,
+    "packs": 48,
+    "stress": 79,
+    "author": 2,
+    "regression": 4,
+    "vertical": 1,
+    "installation": 8
+  },
+  "metadata_only_old_source_paths": [
+    "README.md",
+    "docs/research-logs/2026-09-08-advertising-production-skills-new-project-bootstrap-process.md",
+    "docs/research-logs/2026-09-10-stage-01-domain-boundaries.md",
+    "docs/research-logs/2026-09-10-stage-02-professional-advertising-practice.md",
+    "docs/research-logs/2026-09-10-stage-02-source-register.md",
+    "docs/research-logs/2026-09-10-stage-03-campaign-brief-audience-objective-model.md",
+    "docs/research-logs/2026-09-10-stage-04-message-claim-proof-creative-strategy-model.md",
+    "docs/research-logs/2026-09-10-stage-05-creative-production-cross-format-adaptation.md",
+    "docs/research-logs/2026-09-10-stage-05-source-register.md",
+    "docs/research-logs/2026-09-10-stage-06-media-placement-targeting-budget-model.md",
+    "docs/research-logs/2026-09-10-stage-07-destination-cross-domain-handoffs.md",
+    "docs/research-logs/2026-09-10-stage-08-experiment-measurement-attribution-model.md",
+    "docs/research-logs/2026-09-10-stage-08-source-register.md",
+    "docs/research-logs/2026-09-10-stage-09-optimisation-fatigue-campaign-learning-model.md",
+    "docs/research-logs/2026-09-10-stage-10-legal-standards-platform-policy-handoffs.md",
+    "docs/research-logs/2026-09-10-stage-10-source-register.md",
+    "docs/research-logs/2026-09-10-stage-11-ai-skills-platforms-tools-research.md",
+    "docs/research-logs/2026-09-10-stage-11-source-register.md",
+    "docs/research-logs/2026-09-10-stage-12-execution-layer-tool-boundaries.md",
+    "docs/research-logs/2026-09-10-stage-13-capability-gaps-over-engineering-guardrails.md",
+    "docs/research-logs/2026-09-10-stage-14-core-skills-command-contracts.md",
+    "docs/research-logs/2026-09-10-stage-15-extension-packs-pack-authoring.md",
+    "docs/research-logs/2026-09-10-stage-15-source-register.md",
+    "docs/research-logs/2026-09-10-stage-16-example-designs-and-prompts.md",
+    "docs/research-logs/2026-09-10-stage-16-progressive-example-levels.md",
+    "docs/research-logs/2026-09-10-stage-16-verification.json",
+    "docs/research-logs/2026-09-10-stage-16-verify.py",
+    "docs/research-logs/2026-09-10-stage-17-acceptance.md",
+    "docs/research-logs/2026-09-10-stage-17-canonical-advertising-stress-tests.md",
+    "docs/research-logs/2026-09-10-stage-17-oracle-check.py",
+    "docs/research-logs/2026-09-10-stage-18-evaluation-benchmark-regression-design.md",
+    "docs/research-logs/2026-09-10-stage-18-fixture-catalogue.json",
+    "docs/research-logs/2026-09-10-stage-18-verification.json",
+    "docs/research-logs/2026-09-10-stage-18-verify.py"
+  ],
+  "input_blobs": {
+    "docs/01-advertising-production-skills-system-spec.md": "7730ec92caffc5f67db7c2a983f78ef8ef5ec296",
+    "docs/02-advertising-production-skills-workflows-and-artifacts-spec.md": "91f824e9dc56be9be56c305246707b6513f71d21",
+    "docs/03-advertising-production-skills-repository-and-contracts-spec.md": "1b0c9012773538baaa0afc5b16af201b8b6dc8b9",
+    "docs/04-testing-and-benchmark-spec.md": "d0da8907b12fe6dbdfb8dda386aa5972a99712c7",
+    "docs/05-advertising-production-customisation-packs-spec.md": "2798cd4695ad16f2593b0be890bf446bfa526023",
+    "docs/06-advertising-production-extension-pack-catalogue.md": "30e7b9afddd70d3de3178cd28aeb7e1195651406",
+    "docs/research-logs/2026-09-10-stage-19-source-contracts.json": "14bbd339d3382760a90e3475c5277fcb06f1cf99",
+    "docs/research-logs/2026-09-10-stage-19-six-canonical-specifications.md": "3b9426bf7148bce321506e1cc2f0268b9c83705b",
+    "docs/research-logs/README.md": "6b0ae93ddf370a09d57835081922e0c62ef61ae4",
+    "docs/research-logs/2026-09-10-stage-19-verify.py": "8331221684d4f7c69f91d980b170e5ee0033f048"
+  }
+}

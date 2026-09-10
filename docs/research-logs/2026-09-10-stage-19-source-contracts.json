@@ -1,0 +1,475 @@
+{
+  "schema": "stage19-source-contracts-1",
+  "purpose": "Frozen design-review inputs and source identities, not runtime or campaign fixtures",
+  "baseline": {
+    "repository": "sb-dev/advertising-production-skills",
+    "branch": "feat/bootstrap",
+    "commit": "a7f91beebc0418d0461ea8ba64d99a67fc55cbdb",
+    "tree": "4d0cfa9d245a0a8135966127f27d9307fa5cf7d1",
+    "files": {
+      "README.md": {
+        "sha": "5051a69cfefc65f62565fb8c1f58de1c32bdf88d",
+        "mode": "100644"
+      },
+      "docs/research-logs/2026-09-08-advertising-production-skills-new-project-bootstrap-process.md": {
+        "sha": "f72a6f167595d6f178550fb1e02c4885d875b6b2",
+        "mode": "100644"
+      },
+      "docs/research-logs/2026-09-10-stage-01-domain-boundaries.md": {
+        "sha": "38a353f175eaa31cbcb0a7968458225adbe098e2",
+        "mode": "100644"
+      },
+      "docs/research-logs/2026-09-10-stage-02-professional-advertising-practice.md": {
+        "sha": "d11bf3189905b49bb4ef09db91a522b5c7c08a37",
+        "mode": "100644"
+      },
+      "docs/research-logs/2026-09-10-stage-02-source-register.md": {
+        "sha": "88d84faa1ee080d64089d4d6117e70fa5fe307b9",
+        "mode": "100644"
+      },
+      "docs/research-logs/2026-09-10-stage-03-campaign-brief-audience-objective-model.md": {
+        "sha": "4f0881b53397ec1229fd882d77c2f4a5671f2aa8",
+        "mode": "100644"
+      },
+      "docs/research-logs/2026-09-10-stage-04-message-claim-proof-creative-strategy-model.md": {
+        "sha": "132a8fb32bd0f96516f4fdc94617946a79c46c6f",
+        "mode": "100644"
+      },
+      "docs/research-logs/2026-09-10-stage-05-creative-production-cross-format-adaptation.md": {
+        "sha": "a3856d384400ac3f96f767b0c0dcf925af3336b9",
+        "mode": "100644"
+      },
+      "docs/research-logs/2026-09-10-stage-05-source-register.md": {
+        "sha": "d4282b19a55f250fc6377373922db90276dd288f",
+        "mode": "100644"
+      },
+      "docs/research-logs/2026-09-10-stage-06-media-placement-targeting-budget-model.md": {
+        "sha": "f98c5069eefaf762c19fab61eba0b782491c417c",
+        "mode": "100644"
+      },
+      "docs/research-logs/2026-09-10-stage-07-destination-cross-domain-handoffs.md": {
+        "sha": "9fc9927ff172e546af629aaa6110bf90f9f1aea9",
+        "mode": "100644"
+      },
+      "docs/research-logs/2026-09-10-stage-08-experiment-measurement-attribution-model.md": {
+        "sha": "05c9bfbbd6bf2315056ab2b8d27d6d063513bafc",
+        "mode": "100644"
+      },
+      "docs/research-logs/2026-09-10-stage-08-source-register.md": {
+        "sha": "a6da746c841e79f32b4b7b9c12866f3c55bcbb03",
+        "mode": "100644"
+      },
+      "docs/research-logs/2026-09-10-stage-09-optimisation-fatigue-campaign-learning-model.md": {
+        "sha": "8940230b909433eed8eceea82579441afcd41fdf",
+        "mode": "100644"
+      },
+      "docs/research-logs/2026-09-10-stage-10-legal-standards-platform-policy-handoffs.md": {
+        "sha": "21b5a2776e92ecc3e82503315760323e412c0f13",
+        "mode": "100644"
+      },
+      "docs/research-logs/2026-09-10-stage-10-source-register.md": {
+        "sha": "d0c5022df7637cd1ab8a2fce24c2d6a243ad23ba",
+        "mode": "100644"
+      },
+      "docs/research-logs/2026-09-10-stage-11-ai-skills-platforms-tools-research.md": {
+        "sha": "1ed70329d62702ad6593437cb7be7535e7580a3e",
+        "mode": "100644"
+      },
+      "docs/research-logs/2026-09-10-stage-11-source-register.md": {
+        "sha": "90942bcf00f81ec5a3e9493a99ea6342727b956a",
+        "mode": "100644"
+      },
+      "docs/research-logs/2026-09-10-stage-12-execution-layer-tool-boundaries.md": {
+        "sha": "a2ea3549191b1b4ddbe549b99d6cc166374a4779",
+        "mode": "100644"
+      },
+      "docs/research-logs/2026-09-10-stage-13-capability-gaps-over-engineering-guardrails.md": {
+        "sha": "7eb3d2343fc28aead8c90b6422ca29ebce36167d",
+        "mode": "100644"
+      },
+      "docs/research-logs/2026-09-10-stage-14-core-skills-command-contracts.md": {
+        "sha": "e3ccf114c94a938fe53378619bbed77c9f6dcb46",
+        "mode": "100644"
+      },
+      "docs/research-logs/2026-09-10-stage-15-extension-packs-pack-authoring.md": {
+        "sha": "40c85029ba20fee6762879e801f1daa819428b9e",
+        "mode": "100644"
+      },
+      "docs/research-logs/2026-09-10-stage-15-source-register.md": {
+        "sha": "fab37acee3975bb4b4993013d78f2b7dbe61c310",
+        "mode": "100644"
+      },
+      "docs/research-logs/2026-09-10-stage-16-example-designs-and-prompts.md": {
+        "sha": "b964a4e3fc58c5d59888f25ce7bd4f6d903da592",
+        "mode": "100644"
+      },
+      "docs/research-logs/2026-09-10-stage-16-progressive-example-levels.md": {
+        "sha": "d4fb8f1060b085373f60df3caa77254cc48c5148",
+        "mode": "100644"
+      },
+      "docs/research-logs/2026-09-10-stage-16-verification.json": {
+        "sha": "68127f971f29b98edcdf6ddd98a3e7bb4b91cf06",
+        "mode": "100644"
+      },
+      "docs/research-logs/2026-09-10-stage-16-verify.py": {
+        "sha": "16eebb49da3dd1345a66d98ae6b27661419cb3d5",
+        "mode": "100644"
+      },
+      "docs/research-logs/2026-09-10-stage-17-acceptance.md": {
+        "sha": "795ce06386f2265a6390460d0b1263bbb21bf99f",
+        "mode": "100644"
+      },
+      "docs/research-logs/2026-09-10-stage-17-canonical-advertising-stress-tests.md": {
+        "sha": "b5b1aab0fd2bc534a7a5bdff7d5126d3a63a6840",
+        "mode": "100644"
+      },
+      "docs/research-logs/2026-09-10-stage-17-oracle-check.py": {
+        "sha": "393b46e528a002ee9a3c5c498dbcaf903c994dd1",
+        "mode": "100644"
+      },
+      "docs/research-logs/2026-09-10-stage-18-evaluation-benchmark-regression-design.md": {
+        "sha": "4e6c627a22927393b365066a2a7cf96d6d136c4a",
+        "mode": "100644"
+      },
+      "docs/research-logs/2026-09-10-stage-18-fixture-catalogue.json": {
+        "sha": "ea4789ce26599b47c2153f970701aef2d7456877",
+        "mode": "100644"
+      },
+      "docs/research-logs/2026-09-10-stage-18-verification.json": {
+        "sha": "43c9bccdee13fe5ea7224c89b831ab7d320492a7",
+        "mode": "100644"
+      },
+      "docs/research-logs/2026-09-10-stage-18-verify.py": {
+        "sha": "95382d04f77ffa9bbee91999f1b680ccecafe83b",
+        "mode": "100644"
+      },
+      "docs/research-logs/README.md": {
+        "sha": "42c81c0b6cf72cc25bc138f215d160f4e5e98285",
+        "mode": "100644"
+      }
+    },
+    "evidence": "Transcribed connector-returned Git-tree metadata; complete tree identity reconstructed independently. This is not a claim that every prior file body is mounted or rehashed locally."
+  },
+  "original_bootstrap": "docs/research-logs/2026-09-08-advertising-production-skills-new-project-bootstrap-process.md",
+  "recovered_spec_blobs": {
+    "docs/01-advertising-production-skills-system-spec.md": "7730ec92caffc5f67db7c2a983f78ef8ef5ec296",
+    "docs/02-advertising-production-skills-workflows-and-artifacts-spec.md": "91f824e9dc56be9be56c305246707b6513f71d21",
+    "docs/03-advertising-production-skills-repository-and-contracts-spec.md": "1b0c9012773538baaa0afc5b16af201b8b6dc8b9",
+    "docs/04-testing-and-benchmark-spec.md": "d0da8907b12fe6dbdfb8dda386aa5972a99712c7",
+    "docs/05-advertising-production-customisation-packs-spec.md": "2798cd4695ad16f2593b0be890bf446bfa526023"
+  },
+  "pack_source": {
+    "source_path": "docs/research-logs/2026-09-10-stage-15-extension-packs-pack-authoring.md",
+    "source_blob": "40c85029ba20fee6762879e801f1daa819428b9e",
+    "method": "manual transcription of connector-returned source sections; full original source not mounted"
+  },
+  "packs": [
+    {
+      "id": "P01",
+      "slug": "direct-response-performance-campaign",
+      "fields_sha256": {
+        "thesis": "aff59402fb37117aee40df2de0600be9420d0b07d5abeaf7685ab4379b116ca6",
+        "activation": "cd650309a8d346b3b5ba98ff8bc5d7145ad8dd93a00f91fcfbe321d4ff05df58",
+        "inputs": "8adb01f9bd1680fcf59a885c7794ed8fae45fb22690d6406f2c40ac8eb7fa163",
+        "grammar": "493e0983c17ede3e31b30bc98922195699ab7f7e984d7c0ff409c225f60f9b5f",
+        "build": "deb2590ab8e1804ff30238a06b27ac076bf06a3eb982dc571a2726aa5eba3715",
+        "optimise": "3bf3cebaf4ea03ed07db369f4af76fa4a59b921ef5f8877c697b888aa9018422",
+        "evaluate": "f298893f0974263f765c292ce13bcc3827242c2206c433ed7c346f294311a7cd",
+        "outputs": "555a9e418d7a21329cf42c2470aa57ca5c5d0fa47d2dda090731e0663a262dc2",
+        "repair": "9cd3eb87d01f52159b4a56899b0b8c474254a4d366094556e1023ad352d7f735",
+        "prohibited": "0587ae4dd5dd2fd690479dcf1e8e6831f11135d44d93dc4d9211fedbfea5799b",
+        "differential": "d48e9c7cc2e9355c69edb8cadd0942cdeca42fdd20e3c61307f0db3c48108403"
+      },
+      "observables": [
+        "The response/commitment chain is traceable from each variant to the qualified event.",
+        "The chosen concept explains the proof and objection trade-off without invented urgency.",
+        "The decision summary retains downstream quality and capacity rather than ranking CTR alone."
+      ],
+      "negatives": [
+        [
+          "Change the price to a monthly GBP 40 subscription because it should improve lifetime value.",
+          "Reject the unapproved commercial change; keep one-off terms and route any proposal upstream."
+        ],
+        [
+          "Add a quote from a happy attendee and say only two places remain.",
+          "Reject both unsupported assertions; supplied total capacity is not remaining availability."
+        ]
+      ],
+      "core_prompt_sha256": "177ace149001713f8f8626d0071d9a6e3ab423d16cfb34118aa4132ba71b1059",
+      "pack_prompt_sha256": "eebc4696506a8b7428f011cfbb171eb82d590c52bc62bb63cb6ae833505aeb71"
+    },
+    {
+      "id": "P02",
+      "slug": "brand-awareness-campaign",
+      "fields_sha256": {
+        "thesis": "190a1eaf28c969b15479a1c96cfe59a2988410eb77f0491174374ca0b86de7f9",
+        "activation": "6bb14aba9ffb19847ccb0cc4566bc779bf1aea278796ac72d5197ecfde64a9e4",
+        "inputs": "8789d637ad42c16d1c1992c745728c686dc46da70d52c18f913b5ef4c353a63e",
+        "grammar": "8375ad3a34b01a147413b32ba0bb4965bf53a05b15c59820379f749aee7af943",
+        "build": "2609fae98f08f825d79c5df72c943e7424e5d7c1195666ac3334676931e9ad4b",
+        "optimise": "96b11215264d1b5ead52311b68b31a064f4ad1b8117ed07f0dc52b2bb12605ad",
+        "evaluate": "0e06276ffcac9661db0e15e1cc14cd55ec9b400ae8a78b5f29ac44b5da25a52d",
+        "outputs": "acb0e0f85dabd1e9e8687c87f4ef8b467b4c724301704d002987aed1782cef90",
+        "repair": "522754ec4330f8d9645cc980d207810f34fe830ae54bb361c189ef21efa2b1e7",
+        "prohibited": "8acfbeeaf8a2f84eddcb492fceb4f5a9f26b523141d0fa32c2edcc3b78fee6bb",
+        "differential": "36b22947a58bb0b93cabe75be5d0f06b6f3648ac94ceb83e257a7b1d8e730c09"
+      },
+      "observables": [
+        "Each medium links a concrete brand cue to the same buying situation and association.",
+        "The proposed test distinguishes brand identification from message recall and states its horizon.",
+        "Optimisation guidance does not replace the approved brand objective with short-term clicks."
+      ],
+      "negatives": [
+        [
+          "Claim the bottle eliminates plastic waste and is proven to keep water cold for two days.",
+          "Fail unsupported environmental and performance meanings and repair only the assertions."
+        ],
+        [
+          "Call the concept a failure because no purchases happened in the first day.",
+          "Do not infer a brand-effect conclusion from an irrelevant or absent one-day sales observation."
+        ]
+      ],
+      "core_prompt_sha256": "427381c41d56e6887b9ff1e647fa9d2b4ef1e63e5f69e50d947ea75afbed120f",
+      "pack_prompt_sha256": "7b60ac65d7a71e9c86524705669abd9d748b618edd13785f8c078f3afa74ebde"
+    },
+    {
+      "id": "P03",
+      "slug": "b2b-demand-generation-campaign",
+      "fields_sha256": {
+        "thesis": "e90aa07ffdc02a2d02d4482d33bfe1078d36a00cdee538534097aba7fd778887",
+        "activation": "78d5d37180ab4774825cb63976b1bb434c83112874feeb618c74e5dfec683cf3",
+        "inputs": "ef1ccea6ea2e71641a64da0bc80db1b02137be9dfa35bd5df1b6e49b6aa2fcc2",
+        "grammar": "1f6885041315d9de06c657b929fefb1c68123d63a049c2c5c10f6029a936ae94",
+        "build": "6d87f3f511ab57a24d371e68436fd2d9d8af6478bdf73ddd44465807e3e89abb",
+        "optimise": "b3f22aac67233b4cf032405bb7fbd4287917cfec813f9eccd5560f806b5b0f90",
+        "evaluate": "5219c32c08e90263d5e02eb463bfe215463d27652fb6facd29662560d4b67ff7",
+        "outputs": "2cdf467ef3c3da8542eafebf32635451309530f20bd80371c8c1135a3ca4bb91",
+        "repair": "771c0799cb753f066fbdd7f4cf79adc054218a31a9b79130892d83aa710cfeb9",
+        "prohibited": "0bdf6734173eff0bb8a126b925eafc56c9bbe5b69cc56003147a2a04efd40530",
+        "differential": "3d9980ccbe7c89b6209bdc0240cd5b1a663c18def5eea7ce9ad4f90f9f8af59b"
+      },
+      "observables": [
+        "Role-specific variants differ in relevant concerns and proof rather than unsupported outcomes.",
+        "The next step and qualification conditions preserve the exact service and limited capacity.",
+        "Readout separates engagement, qualified conversation and downstream business with explicit lag."
+      ],
+      "negatives": [
+        [
+          "Add Fortune 500 client logos and a guaranteed 30% cost reduction.",
+          "Reject fabricated credibility and performance; retain the supported review scope."
+        ],
+        [
+          "Count every download as a qualified sales opportunity and ignore delivery capacity.",
+          "Fail qualification and business alignment; restore the defined conditions and capacity guardrail."
+        ]
+      ],
+      "core_prompt_sha256": "e448db340902ffc728fd07bbec9d9307ad5d170c5f9bf6a5fe5183915c1eec42",
+      "pack_prompt_sha256": "69ef1a8380644c008ba7da1bdba9f57279e4e5d9c656e846fdfd1b7f328d84aa"
+    },
+    {
+      "id": "P04",
+      "slug": "consumer-app-acquisition-campaign",
+      "fields_sha256": {
+        "thesis": "ae15bacb790b0e7b86c0c2c1974597354070e9d65f0983d8e1b918d0ded722d3",
+        "activation": "ac456b000e63bc0ffa226f24124d73fe4fb48a1781e433d3d51fca5053b7f361",
+        "inputs": "7a996ae8c92d977e6b0e986cd6c26ac904cfac1bcf121e974ad8640f03b637fb",
+        "grammar": "4caf9301d95630c8e2a002b8f42e54b43cc641cd7d4b5ea8b521fb6f964f2010",
+        "build": "ea2459d2c8363002a1b13a9a22ce6f83c2cb2595bc19d88a0c31b2e0b27d37a0",
+        "optimise": "e7bc7fd556034c68b5f2901accc978ca724c903e514cc290986af8b77d3499cf",
+        "evaluate": "24a250ab6e270c5cbe1661538cebfdc866bbb9d67e8530360fef5ec9e7c12fe1",
+        "outputs": "d9c34a9e3a5653a483aa0f1d925e91c364e209de9e533f6d9f4ed35e2870f82a",
+        "repair": "2e6edcb9c9a25407d08b2713214eafc407b6eb667206795e555db51115c7797a",
+        "prohibited": "ccfb3fc789a96551408c8942bb5e0a7878052c70605d29eecefe0d9795aa006a",
+        "differential": "dda85f8edb76ea690402cc979ea77881e8d62d55d98a7ad7a4c05e6e3c944373"
+      },
+      "observables": [
+        "The creative promise is traced through store and first useful action without changing payment terms.",
+        "Install, activation, subscription and day-seven retained use have distinct definitions and maturity.",
+        "Unknown or privacy-limited measurements remain unavailable rather than invented or zero-filled."
+      ],
+      "negatives": [
+        [
+          "Replace the monthly subscription with free forever in all acquisition copy.",
+          "Reject the commercial misrepresentation and preserve the approved charging/refund model."
+        ],
+        [
+          "Declare retention proven from install totals collected yesterday.",
+          "Reject the undefined/immature downstream conclusion; retain distinct event and cohort windows."
+        ]
+      ],
+      "core_prompt_sha256": "1071e275c490adcedc4459758fa2eea2e4565633e2fe83aa88efa52cc0424f5f",
+      "pack_prompt_sha256": "39e50ae9c1c153edf65d130434d16c266a3909764834a22498bc07258306c32d"
+    },
+    {
+      "id": "P05",
+      "slug": "product-launch-campaign",
+      "fields_sha256": {
+        "thesis": "619aad988a3b498605c7c292e77fa2453a8f5f4155e25aaa1b0b4dc40c298727",
+        "activation": "b2dbd7c20c1c694799a20a659b5909265ad8b4919a74e993fae9a3becd917176",
+        "inputs": "c75ddc9b6e0246c48ce2527ca2ef63cb1acec553f5792bce9456e75d69272575",
+        "grammar": "2c7f02a4f9389deb6af630b6dbad57ba93ccb39272aa4d816de9f78b2073c35a",
+        "build": "f9046ed50aa980cfc2e5e34430f8d01a73655ffe281e9c718276a20d26cd4593",
+        "optimise": "ce4c7948c2c9e9bcdd548305b2d33596d24ea0958851d3c14c4e0e2ff03c5248",
+        "evaluate": "fce1d9bb8f74e785c7d0ded2c2998cd77a0e92231414fb20a815d5c71f237902",
+        "outputs": "7bc1aa3492ca504bb97e0a4789501f6bf342e9dffc4df75deefd197e8af8677e",
+        "repair": "914c15bf8a638826a3a44e8aa73164503f06bd1ad462d70504c22f6fdd659e47",
+        "prohibited": "ecc124eebc6b8bae71c3a2b436c5b880f740109762e388f650fcd3aaf13e45b1",
+        "differential": "5a8aab20a9dbc8d7aa5689017faa80a021e54ac24316fab1fff3b7c6c57b3902"
+      },
+      "observables": [
+        "Planned and confirmed availability remain distinct in every phase-specific expression.",
+        "Each transition names the required owner evidence and affected destination/asset changes.",
+        "Interest, order or use metrics are not conflated across phases, and delay handling is truthful."
+      ],
+      "negatives": [
+        [
+          "Make Buy now active automatically at midnight on the planned date even without stock confirmation.",
+          "Reject calendar-only readiness and keep the dependent release route blocked."
+        ],
+        [
+          "Add sold out twice and last chance to justify a countdown.",
+          "Reject unsupported popularity/scarcity; preserve truthful phase and availability information."
+        ]
+      ],
+      "core_prompt_sha256": "7a5b714d90b8cb1d1f25e3c4cde2335e52ac1caa7e7709144f35745851cfd853",
+      "pack_prompt_sha256": "ddf78a7ff4e5b03fb9370fed012850b240bd45da2685708a9b6df72ec8ec6f39"
+    },
+    {
+      "id": "P06",
+      "slug": "retargeting-and-reengagement-campaign",
+      "fields_sha256": {
+        "thesis": "58f1adca73d916136c32f61178695c0bfb7faf5c6c8b47e14b6ba38c0f981bdb",
+        "activation": "0bda52c04b6f761d515a220ef00798862fc28ecb5bef78716c1bf7ec440b4b4a",
+        "inputs": "cd687306ce2f37876bd4baec0c33256426e679b61378c9fb9b7e8fdba1cb472f",
+        "grammar": "6140cbd5c46e8f5a1f1f4f0b2b884ffc2b7dbd2c06f3ec49c34f101f58790bed",
+        "build": "e2aa2cbaaa56dc45785585ef0a47b9a4f4497744ea0716117c0a7ff0bcf9186d",
+        "optimise": "69a80ad83373c15262af1567590a348e95553f29991602c3c57b3773812cc619",
+        "evaluate": "e52ba76ac098174a3e510f42e08cde36de1630a6a84f95691e83da973b1c2051",
+        "outputs": "48bda540a65faee4b73a0467395e4d3d2b55379d4ee066582a1dac70365bee00",
+        "repair": "6460d2360b1c32e1ce032d7f5d28b2aaa5b1a47bdd25274ef53e646976dfdbaa",
+        "prohibited": "6629938b30c8447ac887ccb01ad3d3d2c8eb708369121c3678acf1d55fc44971",
+        "differential": "95721a4a709b35925407fee27b4ffc872095d582f25b06007512d223bc1f9daa"
+      },
+      "observables": [
+        "Every message is linked to an authorised state and a valid next action, not assumed identity.",
+        "Entry, elapsed-time boundary, booked/withdrawn suppression and unknown controls have explicit consequences.",
+        "The readout distinguishes high propensity and attribution from supported incremental effect."
+      ],
+      "negatives": [
+        [
+          "Upload everyone who ever visited, including purchasers and withdrawn users.",
+          "Reject missing/contradictory use and suppression scope; do not expand or upload the audience."
+        ],
+        [
+          "Call every returning purchaser an incremental sale caused by this reminder.",
+          "Reject the causal inference without the required comparison and preserve source-relative reporting."
+        ]
+      ],
+      "core_prompt_sha256": "99678f33720344a1c3edad3ef253abda69a5280fd699f59f55751aac16cd70b3",
+      "pack_prompt_sha256": "5b2e06f455272c1141340b3e996c3f6a4829509b57a4e316c079a8621431379c"
+    },
+    {
+      "id": "P07",
+      "slug": "local-service-lead-generation",
+      "fields_sha256": {
+        "thesis": "bac826955f84822bfd16311afbb7eef155f96dcfc6e7affbb5705e158f88d9e5",
+        "activation": "bc578c6ddc88889d75de1b58518d90c0fe72a14ed4398f32236e91c1a8d793cd",
+        "inputs": "90f854fccd68e9213656190278e8210e877f4c991e38a01a6030a1fc71a55422",
+        "grammar": "a48311a0431fd414058532c40bd9065af8a8ea50c35d083134c7692c6bf4e3de",
+        "build": "66c9e29333f0228bcdda2596c84220368baa295c97b330f1a9fc38d766a64f85",
+        "optimise": "bca30ddeebc0f5d8fddbdbf5b7c265b5eb8976c0008c965ed705baf2758d13d6",
+        "evaluate": "e2b70a398d40d56e8f3ccdab65cb18b6c6b069f8261dd3a557622f565f0f7559",
+        "outputs": "4cc326f19a491c88db28272675c3272cc0fcca965cc4453b482cc406ab774e11",
+        "repair": "17d1339d99c46406fdde34ea0873ddaa5f9c15bdc4f0c0822713034069a0a42d",
+        "prohibited": "8638bb0a8001aa90428c850306405232ebbe2076b93843c13c0aa7b58cc3e66a",
+        "differential": "8d3f61b9868582b1cfcbebc092ce3a1d8a5a70e3b060d048f793e9883a9130e6"
+      },
+      "observables": [
+        "Area, allowed job, contact hours and finite capacity affect the promise and media requirements.",
+        "Inspection, separate repair quote, request and confirmed booking remain distinct.",
+        "The readout and repair address wrong-fit or unreachable leads before cheap-lead scaling."
+      ],
+      "negatives": [
+        [
+          "Advertise emergency repairs anywhere, twenty-four hours a day.",
+          "Reject scope/area/hours drift and retain only the approved inspection promise."
+        ],
+        [
+          "Claim deselecting job types proves the live campaign is paused.",
+          "Reject unverified containment; require the relevant actual executor state instead of a settings inference."
+        ]
+      ],
+      "core_prompt_sha256": "affdc7cb3c1b77acaec62c9d2268ce76713ab3bdd88a5ca84edcebbe41262c82",
+      "pack_prompt_sha256": "abba8f4e223e96e0b5ccd96d3d0d771557ee97fe9d671e16a09c0c891cc48e48"
+    },
+    {
+      "id": "P08",
+      "slug": "creator-native-social-campaign",
+      "fields_sha256": {
+        "thesis": "145cdee8621761df9161217458765f4e26c8b25b862d96a9c19997ce3d87d204",
+        "activation": "60cccb3eaa2485032a5473cafb585401974939a6f3e4f4547470baf89a6edbd7",
+        "inputs": "b93b812bfda2b5f0e7468020f5b4911e09c4b98b62e62554545293ffcf81a7ed",
+        "grammar": "ea51b83616186437fc6a5c544e3930ccda9bec6833f6134373f8250faedc9b9d",
+        "build": "4369379245cede55ea67dad8675e65583274bc4a809c848c26fccd4b9042be1f",
+        "optimise": "dcf11d7c62b1a61d7429467ce15b03c837f60ee4cca8ac969aa093119c645f45",
+        "evaluate": "35f0d2217d6190030714dc1923c511d4760fa359c1552e5a4da82d8fc692f49f",
+        "outputs": "e680b7904a426b9d80378ead94f5a88314a60bc655cc58b0c35d0ea5a1d71a1a",
+        "repair": "bb4ebc50a12deed586b7cc2e791b7af05f802de26567cdded620ba00240624c2",
+        "prohibited": "6a5686e8250d36328ee26c3b21a6fe4f0ee801bea209476708f8c7ef689e2b14",
+        "differential": "fc1ea450cba4984982b5300984d2d06f3f9bcee9dbb1b9b01ddea7214c14522f"
+      },
+      "observables": [
+        "The creator brief distinguishes fixed meaning/terms/disclosure from permitted creative latitude.",
+        "Demonstration and personal-experience language remain within actual supplied proof and role.",
+        "Opening, cutdowns and CTA retain explicit commercial identity and a feasible review route."
+      ],
+      "negatives": [
+        [
+          "Make it look like an unpaid customer discovered the stand and say it transformed their productivity.",
+          "Reject disguised commercial identity and fabricated customer outcome; use honest presenter explanation."
+        ],
+        [
+          "Clone a famous creator and remove the commercial label to improve engagement.",
+          "Reject unapproved identity use and disclosure override; preserve the fixed brief and owning decisions."
+        ]
+      ],
+      "core_prompt_sha256": "1d79d35cd0be73933dd11514eaf886b9afd2d93f4f6091d775fb03f2762b4f1d",
+      "pack_prompt_sha256": "22e3256be8d549d67dc98e7ef830f1519de405c3618f1b7d5b6372079f984f89"
+    }
+  ],
+  "expected_skills": [
+    "advertising-build",
+    "advertising-optimise",
+    "advertising-evaluate",
+    "advertising-pack-author"
+  ],
+  "command_owner_counts": {
+    "advertising-build": 13,
+    "advertising-optimise": 10,
+    "advertising-evaluate": 9,
+    "advertising-pack-author": 1
+  },
+  "suite_counts": {
+    "primary": 15,
+    "packs": 48,
+    "stress": 79,
+    "author": 2,
+    "regression": 4,
+    "vertical": 1,
+    "installation": 8
+  },
+  "model_counts": {
+    "BR.C": 13,
+    "AU.A": 3,
+    "ST.M": 8,
+    "PR.P": 6,
+    "MF.F": 9,
+    "MD.M": 11,
+    "JT.D": 7,
+    "EX.T": 9,
+    "LN.L": 7,
+    "PC.P": 10
+  },
+  "progress_prefix_sha256": "45668762c2af6c984b57861bf78fd137b2bc0cebe6c6cea1d97057dc980c6f8f",
+  "field_assurance": "Pack field and prompt expectations are transcribed from connector-returned pinned source sections and manually compared. The verifier additionally compares the full original source when available in a complete checkout."
+}
