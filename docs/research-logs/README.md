@@ -29,7 +29,8 @@ Governing contract: [original bootstrap](2026-09-08-advertising-production-skill
 | Stage | Acceptance | Durable evidence | Publication gate |
 |---|---|---|---|
 | 0: Bootstrap workspace | PASS: already satisfied on clean main | Stage 1 log, clean-start verification; baseline initial commit | Working branch verified at the exact baseline |
-| 1: Domain boundaries | PASS | [Complete boundary decisions and conformance](2026-09-10-stage-01-domain-boundaries.md) | Commit message: `docs: complete stage 1 advertising domain boundaries`; verify remote SHA and files before proceeding |
-| 2–27 | NOT STARTED | No completion claimed | Each stage requires its own acceptance, commit and remote verification |
+| 1: Domain boundaries | PASS | [Complete boundary decisions and conformance](2026-09-10-stage-01-domain-boundaries.md) | Remote commit `81eeb75e46506817e403c2e3ee9653ab7bc78506`, parent, tree and intended file hashes verified |
+| 2: Professional advertising practice | PASS | [22-discipline research and conformance](2026-09-10-stage-02-professional-advertising-practice.md); [35-source register](2026-09-10-stage-02-source-register.md) | Commit message: `docs: complete stage 2 professional advertising research`; verify remote SHA and intended files before proceeding |
+| 3–27 | NOT STARTED | No completion claimed | Each stage requires its own acceptance, commit and remote verification |
 
 Project maturity remains bootstrap research. No production scaffold, installed skill, benchmarked capability, live campaign, release or PR readiness is claimed.
