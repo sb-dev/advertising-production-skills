@@ -1,0 +1,12 @@
+{
+  "name": "advertising-production-skills",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Development checks for the Advertising Production Skills repository",
+  "license": "MIT",
+  "packageManager": "pnpm@12.3.4",
+  "scripts": {
+    "validate": "python3 tools/validate_repo.py",
+    "test": "python3 -m unittest discover -s tests -p 'test_*.py'"
+  }
+}
