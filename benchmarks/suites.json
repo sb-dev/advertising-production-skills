@@ -1,0 +1,14 @@
+{
+  "schema": "advertising-benchmark-scaffold-1",
+  "execution_status": "not-run",
+  "designed_case_counts": {
+    "core_vertical": 1,
+    "primary_examples": 15,
+    "pack_conditions": 48,
+    "canonical_cases": 79,
+    "pack_authoring_cases": 2,
+    "supplemental_regressions": 4,
+    "installation_combinations": 8
+  },
+  "evidence_boundary": "Counts describe accepted benchmark design only. Stage 22 does not claim these cases executed."
+}

@@ -1,0 +1,61 @@
+{
+  "stage": 22,
+  "result": "PASS_BEFORE_PUBLICATION_GATE",
+  "scope": "Production scaffold structure, skill/intent surfaces, evidence-status integrity, deterministic validator self-test and publication preparation",
+  "approved_licence": "MIT",
+  "accepted_predecessor": "f908b947433af8fd78fa63391a72dfade9b12bb4",
+  "proposed_tree": "cf348154e924a108200f9813f3b1d8897eff864e",
+  "skill_counts": {
+    "advertising-build": 13,
+    "advertising-optimise": 10,
+    "advertising-evaluate": 9,
+    "advertising-pack-author": 1,
+    "total": 33
+  },
+  "progressive_examples": {
+    "total": 15,
+    "distribution": {"L1": 3, "L2": 3, "L3": 3, "L4": 3, "L5": 3},
+    "execution_status": "not-run"
+  },
+  "benchmark_design": {
+    "core_vertical": 1,
+    "primary_examples": 15,
+    "pack_conditions": 48,
+    "canonical_cases": 79,
+    "pack_authoring_cases": 2,
+    "supplemental_regressions": 4,
+    "installation_combinations": 8,
+    "execution_status": "not-run"
+  },
+  "validator_self_test": {
+    "executed": true,
+    "result": "PASS",
+    "negative_mutations": [
+      "missing skill",
+      "wrong skill metadata",
+      "missing command",
+      "broken local link",
+      "wrong example level distribution",
+      "false benchmark execution status"
+    ]
+  },
+  "prepublication_checks": [
+    {"requirement":"six accepted specifications precede scaffold","result":"PASS"},
+    {"requirement":"root README, MIT LICENSE, CONTRIBUTING, CHANGELOG and package metadata present","result":"PASS"},
+    {"requirement":"four independently addressable skill entry points","result":"PASS"},
+    {"requirement":"exact 33 intent ownership 13/10/9/1","result":"PASS"},
+    {"requirement":"examples surface exact 5x3 without invented outputs","result":"PASS"},
+    {"requirement":"benchmark surface preserves exact designed counts and not-run state","result":"PASS"},
+    {"requirement":"validator/tests/CI are real files with executable commands","result":"PASS"},
+    {"requirement":"no empty extension-pack/integration placeholders","result":"PASS"},
+    {"requirement":"no CRM/DSP/ad-server/warehouse/account-store runtime added","result":"PASS"},
+    {"requirement":"later-stage install, behavioural, media and maturity claims remain unmade","result":"PASS"}
+  ],
+  "evidence_limits": [
+    "The validator self-test establishes structural/evidence corruption detection only.",
+    "Campaign and generated-media quality are not evaluated in Stage 22.",
+    "Extension Pack behavioural comparisons are not executed in Stage 22.",
+    "Clean local/remote installation and host invocation belong to Stage 25 and remain unexecuted.",
+    "Remote branch, completion commit/tree/file read-back and CI status are checked after the completion commit and are not recursively embedded in this prepublication report."
+  ]
+}
