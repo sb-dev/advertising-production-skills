@@ -27,6 +27,21 @@ class RepositoryTests(unittest.TestCase):
             p=r/'skills/advertising-build/SKILL.md'; p.write_text(p.read_text()+'\n[missing](missing.md)\n')
         self.mutate(change)
 
+    def test_public_readme_bootstrap_leakage_fails(self):
+        def change(r):
+            p=r/'README.md'; p.write_text(p.read_text()+'\nStage 24 will prove this later.\n')
+        self.mutate(change)
+
+    def test_public_readme_quick_start_must_be_inline(self):
+        def change(r):
+            p=r/'README.md'; p.write_text(p.read_text().replace('SYN-E01-OFFER@1','SYN-E01-MISSING'))
+        self.mutate(change)
+
+    def test_public_readme_skill_section_required(self):
+        def change(r):
+            p=r/'README.md'; p.write_text(p.read_text().replace('### `advertising-evaluate`','### removed-evaluate',1))
+        self.mutate(change)
+
     def test_false_benchmark_execution_fails(self):
         def change(r):
             p=r/'benchmarks/suites.json'; p.write_text(p.read_text().replace('"not-run"','"passed"'))

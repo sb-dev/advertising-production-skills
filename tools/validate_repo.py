@@ -11,7 +11,8 @@ SKILLS = {
 }
 SPECS = ['docs/01-advertising-production-skills-system-spec.md','docs/02-advertising-production-skills-workflows-and-artifacts-spec.md','docs/03-advertising-production-skills-repository-and-contracts-spec.md','docs/04-testing-and-benchmark-spec.md','docs/05-advertising-production-customisation-packs-spec.md','docs/06-advertising-production-extension-pack-catalogue.md']
 ROOT_REQUIRED = ['README.md','LICENSE','CONTRIBUTING.md','CHANGELOG.md','package.json'] + SPECS
-README_HEADINGS = ['Business Building boundary','Truthful and policy-aware advertising','Installation','Quick start','Learn by producing','Project structure grows with the work','Skills','Extension Packs','Execution layer and specialist handoffs','Measurement, optimisation and learning','Benchmarks and evidence','Canonical stress tests','Documentation','Boundaries','Contributing','Licence']
+README_HEADINGS = ['Claims, proof and commercial control','Install','Quick start — Local inspection search unit','Learn by producing','Project structure grows with the campaign','Skills','Extension Packs','Execution','Measurement, optimisation and learning','Testing and benchmarks','Documentation','Boundaries','Contributing','Licence']
+LEAK_PATTERNS = [r'\bStage\s+\d+\b',r'feat/bootstrap',r'production scaffold',r'bootstrap progress',r'\bnot-run\b',r'maturity promotion',r'docs/research-logs/']
 LINK_RE = re.compile(r'(?<!!)\[[^\]]+\]\(([^)]+)\)')
 NAME_RE = re.compile(r'^[a-z0-9]+(?:-[a-z0-9]+)*$')
 
@@ -34,6 +35,25 @@ def link_errors(root,text,source):
         except ValueError:
             errors.append(f'{source}: link escapes repository: {target}'); continue
         if not path.exists(): errors.append(f'{source}: missing link target: {target}')
+    return errors
+
+def validate_readme(root,text):
+    errors=[]
+    for h in README_HEADINGS:
+        if f'## {h}' not in text: errors.append(f'README missing section: {h}')
+    for pattern in LEAK_PATTERNS:
+        if re.search(pattern,text,re.I): errors.append(f'README leaks bootstrap/process state: {pattern}')
+    for token in ['SYN-E01-OFFER@1','SYN-E01-PROOF@1','Produce brief.md','Use a request-to-schedule CTA']:
+        if token not in text: errors.append(f'README quick start incomplete: missing {token}')
+    learn=text.split('## Learn by producing',1)[1].split('## Project structure grows with the campaign',1)[0] if '## Learn by producing' in text else ''
+    for level in range(1,6):
+        if f'### Level {level} —' not in learn: errors.append(f'README missing Level {level}')
+    for i in range(1,16):
+        if learn.count(f'E{i:02d} ') != 1: errors.append(f'README progression must contain E{i:02d} exactly once')
+    for skill in SKILLS:
+        if f'### `{skill}`' not in text: errors.append(f'README missing substantive skill section: {skill}')
+    if 'npx skills add sb-dev/advertising-production-skills' not in text: errors.append('README missing canonical install route')
+    errors += link_errors(root,text,root/'README.md')
     return errors
 
 def validate(root):
@@ -74,23 +94,15 @@ def validate(root):
     if sum(map(len,SKILLS.values())) != 33: errors.append('internal expected intent count is not 33')
     if [len(SKILLS[k]) for k in SKILLS] != [13,10,9,1]: errors.append('internal owner distribution is wrong')
     readme=root/'README.md'
-    if readme.is_file():
-        t=readme.read_text()
-        for h in README_HEADINGS:
-            if f'## {h}' not in t: errors.append(f'README missing section: {h}')
-        if 'Current status: production scaffold' not in t: errors.append('README does not state scaffold status')
-        if 'clean external installation and host-compatibility evidence are Stage 25 requirements' not in t: errors.append('README overstates installation evidence')
-        if 'five levels × three primary examples = fifteen' not in t: errors.append('README does not state exact 5x3 progression')
-        errors += link_errors(root,t,readme)
+    if readme.is_file(): errors += validate_readme(root,readme.read_text())
     ex=root/'examples/README.md'
     if not ex.is_file(): errors.append('missing examples/README.md')
     else:
-        t=ex.read_text(); ids=re.findall(r'^\| (E\d{2}) \| (L\d) \|',t,re.M); expected=[f'E{i:02d}' for i in range(1,16)]
-        if [x[0] for x in ids] != expected: errors.append(f'example IDs mismatch: {ids}')
-        levels={f'L{i}':0 for i in range(1,6)}
-        for _,level in ids: levels[level]=levels.get(level,0)+1
-        if any(v!=3 for v in levels.values()): errors.append(f'example level distribution mismatch: {levels}')
-        if 'execution_status: not-run' not in t: errors.append('examples index must preserve not-run status')
+        t=ex.read_text()
+        for i in range(1,16):
+            if f'### E{i:02d}.' not in t: errors.append(f'examples index missing E{i:02d}')
+        for level in range(1,6):
+            if f'## Level {level} —' not in t: errors.append(f'examples index missing Level {level}')
         errors += link_errors(root,t,ex)
     manifest=root/'benchmarks/suites.json'
     if not manifest.is_file(): errors.append('missing benchmarks/suites.json')
@@ -100,8 +112,8 @@ def validate(root):
             if data.get('designed_case_counts')!=expected: errors.append('benchmark designed case counts changed')
             if data.get('execution_status')!='not-run': errors.append('benchmark manifest overstates execution')
         except Exception as e: errors.append(f'invalid benchmark manifest: {e}')
-    for p in ['benchmarks/README.md','tools/validate_repo.py','tests/test_repository.py','.github/workflows/validate.yml','.github/pull_request_template.md','docs/research-logs/2026-09-11-stage-22-production-repository-scaffold.md']:
-        if not (root/p).is_file(): errors.append(f'missing scaffold surface: {p}')
+    for p in ['benchmarks/README.md','tools/validate_repo.py','tests/test_repository.py','.github/workflows/validate.yml','.github/pull_request_template.md','docs/research-logs/2026-09-11-stage-22-production-repository-scaffold.md','docs/research-logs/2026-09-11-stage-23-public-readme-conformance.md']:
+        if not (root/p).is_file(): errors.append(f'missing repository surface: {p}')
     if (root/'extension-packs').exists() and not any((root/'extension-packs').iterdir()): errors.append('empty extension-packs directory is cosmetic')
     if (root/'integrations').exists() and not any((root/'integrations').iterdir()): errors.append('empty integrations directory is cosmetic')
     workflow=root/'.github/workflows/validate.yml'
@@ -116,7 +128,10 @@ def write_fixture(root):
         f=root/p; f.parent.mkdir(parents=True,exist_ok=True)
         if p=='LICENSE': f.write_text('MIT License\nfixture\n')
         elif p=='package.json': f.write_text(json.dumps({'license':'MIT','packageManager':'pnpm@12.3.4','scripts':{'validate':'python3 tools/validate_repo.py','test':"python3 -m unittest discover -s tests -p 'test_*.py'"}}))
-        elif p=='README.md': f.write_text('# Advertising Production Skills\n\n**Current status: production scaffold.** clean external installation and host-compatibility evidence are Stage 25 requirements. five levels × three primary examples = fifteen\n\n'+'\n'.join('## '+h for h in README_HEADINGS)+'\n')
+        elif p=='README.md':
+            levels='\n'.join(f'### Level {l} — fixture\n'+ '\n'.join(f'- E{i:02d} case' for i in range((l-1)*3+1,l*3+1)) for l in range(1,6))
+            skills='\n'.join(f'### `{s}`\nfixture' for s in SKILLS)
+            f.write_text('# Advertising Production Skills\n\n'+'\n'.join('## '+h for h in README_HEADINGS[:3])+'\nSYN-E01-OFFER@1\nSYN-E01-PROOF@1\nProduce brief.md\nUse a request-to-schedule CTA\n## Learn by producing\n'+levels+'\n## Project structure grows with the campaign\nfixture\n## Skills\n'+skills+'\n'+'\n'.join('## '+h for h in README_HEADINGS[6:])+'\nnpx skills add sb-dev/advertising-production-skills\n')
         else: f.write_text('# fixture\n')
     for skill,intents in SKILLS.items():
         base=root/'skills'/skill; (base/'commands').mkdir(parents=True,exist_ok=True); (base/'references').mkdir(parents=True,exist_ok=True)
@@ -124,12 +139,13 @@ def write_fixture(root):
         (base/'SKILL.md').write_text(f'---\nname: {skill}\ndescription: fixture activation contract\nlicense: MIT\n---\n# {skill}\n{links}\n[core](references/core-contract.md)\n')
         (base/'references/core-contract.md').write_text('# core\n')
         for i in intents: (base/'commands'/f'{i}.md').write_text(f'# {i}\n\n**Owner:** `{skill}`\n\n## Purpose\nx\n## Inputs\nx\n## Outputs\nx\n## Checks\nx\n## Failure routing\nx\n')
-    (root/'examples').mkdir(); rows='\n'.join(f'| E{i:02d} | L{((i-1)//3)+1} | case |' for i in range(1,16)); (root/'examples/README.md').write_text('# Examples\n\nexecution_status: not-run\n\n| ID | Level | Name |\n|---|---|---|\n'+rows+'\n')
+    (root/'examples').mkdir(); (root/'examples/README.md').write_text('# Learn by Producing\n'+'\n'.join(f'## Level {l} — fixture\n'+ '\n'.join(f'### E{i:02d}. case' for i in range((l-1)*3+1,l*3+1)) for l in range(1,6))+'\n')
     (root/'benchmarks').mkdir(); (root/'benchmarks/README.md').write_text('# Benchmarks\n'); (root/'benchmarks/suites.json').write_text(json.dumps({'execution_status':'not-run','designed_case_counts':{'core_vertical':1,'primary_examples':15,'pack_conditions':48,'canonical_cases':79,'pack_authoring_cases':2,'supplemental_regressions':4,'installation_combinations':8}}))
     (root/'tools').mkdir(); shutil.copy2(__file__,root/'tools/validate_repo.py')
     (root/'tests').mkdir(); (root/'tests/test_repository.py').write_text('# fixture test\n')
     (root/'.github/workflows').mkdir(parents=True); (root/'.github/workflows/validate.yml').write_text('pnpm/action-setup@v4\nversion: 12.3.4\npnpm validate\npnpm test\n'); (root/'.github/pull_request_template.md').write_text('# PR\n')
-    p=root/'docs/research-logs/2026-09-11-stage-22-production-repository-scaffold.md'; p.parent.mkdir(parents=True,exist_ok=True); p.write_text('# Stage 22\n')
+    for name in ['2026-09-11-stage-22-production-repository-scaffold.md','2026-09-11-stage-23-public-readme-conformance.md']:
+        p=root/'docs/research-logs'/name; p.parent.mkdir(parents=True,exist_ok=True); p.write_text('# evidence\n')
 
 def self_test():
     failures=[]
@@ -137,7 +153,17 @@ def self_test():
         root=Path(td); write_fixture(root)
         errs=validate(root)
         if errs: failures.append('valid fixture failed: '+repr(errs))
-        cases=[('missing skill',lambda r: shutil.rmtree(r/'skills/advertising-evaluate')),('wrong metadata',lambda r:(r/'skills/advertising-build/SKILL.md').write_text((r/'skills/advertising-build/SKILL.md').read_text().replace('name: advertising-build','name: wrong'))),('missing command',lambda r:(r/'skills/advertising-build/commands/design-test.md').unlink()),('broken link',lambda r:(r/'skills/advertising-build/SKILL.md').write_text((r/'skills/advertising-build/SKILL.md').read_text()+'\n[bad](missing.md)\n')),('example distribution',lambda r:(r/'examples/README.md').write_text((r/'examples/README.md').read_text().replace('| E03 | L1 |','| E03 | L2 |'))),('false benchmark execution',lambda r:(r/'benchmarks/suites.json').write_text((r/'benchmarks/suites.json').read_text().replace('"not-run"','"passed"')))]
+        cases=[
+            ('missing skill',lambda r: shutil.rmtree(r/'skills/advertising-evaluate')),
+            ('wrong metadata',lambda r:(r/'skills/advertising-build/SKILL.md').write_text((r/'skills/advertising-build/SKILL.md').read_text().replace('name: advertising-build','name: wrong'))),
+            ('missing command',lambda r:(r/'skills/advertising-build/commands/design-test.md').unlink()),
+            ('broken link',lambda r:(r/'skills/advertising-build/SKILL.md').write_text((r/'skills/advertising-build/SKILL.md').read_text()+'\n[bad](missing.md)\n')),
+            ('bootstrap leakage',lambda r:(r/'README.md').write_text((r/'README.md').read_text()+'\nStage 24 will prove this.\n')),
+            ('missing quick-start fact',lambda r:(r/'README.md').write_text((r/'README.md').read_text().replace('SYN-E01-OFFER@1','missing-offer'))),
+            ('wrong progression',lambda r:(r/'README.md').write_text((r/'README.md').read_text().replace('E03 case','E04 case',1))),
+            ('missing skill section',lambda r:(r/'README.md').write_text((r/'README.md').read_text().replace('### `advertising-evaluate`','### missing-evaluate',1))),
+            ('false benchmark execution',lambda r:(r/'benchmarks/suites.json').write_text((r/'benchmarks/suites.json').read_text().replace('"not-run"','"passed"'))),
+        ]
         for name,mutate in cases:
             with tempfile.TemporaryDirectory() as td2:
                 r=Path(td2); shutil.copytree(root,r,dirs_exist_ok=True); mutate(r)
@@ -147,6 +173,6 @@ def self_test():
 def main():
     ap=argparse.ArgumentParser(); ap.add_argument('--root',type=Path,default=Path('.')); ap.add_argument('--self-test',action='store_true'); args=ap.parse_args()
     if args.self_test:
-        failures=self_test(); print(json.dumps({'result':'PASS' if not failures else 'FAIL','negative_mutations':6,'failures':failures},indent=2)); raise SystemExit(bool(failures))
+        failures=self_test(); print(json.dumps({'result':'PASS' if not failures else 'FAIL','negative_mutations':9,'failures':failures},indent=2)); raise SystemExit(bool(failures))
     errors=validate(args.root); print(json.dumps({'result':'PASS' if not errors else 'FAIL','error_count':len(errors),'errors':errors},indent=2)); raise SystemExit(bool(errors))
 if __name__=='__main__': main()

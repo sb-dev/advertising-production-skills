@@ -1,196 +1,350 @@
 # Advertising Production Skills
 
-**Evidence-led advertising, from approved offer to campaign learning.**
+**Build evidence-led advertising campaigns, not isolated ad generations.**
 
-Advertising Production Skills is an open-source Production Skills project for turning an approved business objective into supported messages, meaningful creative alternatives, coherent placement variants, media/test contracts and bounded campaign learning.
+Advertising Production Skills gives AI coding agents a production workflow for turning an approved business objective into campaign strategy, supported claims, creative concepts, placement variants, media/test plans, measurement and bounded optimisation.
 
-**Current status: production scaffold.** The repository now exposes the four designed skill entry points, repository validation, examples/benchmark indices and CI. The Stage 23 core vertical, Stage 24 full progressive/Extension Pack execution, Stage 25 clean installation evidence and any later maturity promotion are not yet complete.
+It supports the advertising-production process:
 
-## What it covers
+- **Campaign framing**: objectives, approved offer continuity, audience hypotheses and channel roles
+- **Message and proof**: message hierarchy, explicit and implied claims, substantiation, objections and CTA meaning
+- **Creative production**: genuinely different concepts, cheap useful representations, specialist production briefs and cross-format adaptation
+- **Media and experimentation**: placements, targeting representations, budget staging, test design and measurement contracts
+- **Optimisation**: delivery, audience, creative, placement and destination diagnosis, fatigue investigation and bounded repair
+- **Evaluation**: claims, proof, format fit, destination consistency, experiment validity, measurement, policy context and preservation
 
-- campaign framing, objectives and audience hypotheses;
-- message, claim, proof and objection architecture;
-- genuinely different creative concepts and cheapest-useful representations;
-- channel/placement adaptation without losing material meaning;
-- media roles, targeting requirements, authorised budget staging and controlled tests;
-- measurement interpretation, fatigue diagnosis and bounded repair;
-- independent evaluation without a universal advertising-quality score;
-- reusable Advertising Extension Pack grammars without changing approved business truth.
+The workflow is designed to preserve approved commercial truth, resolve uncertainty at the cheapest useful fidelity, separate selection from approval, evaluate the actual requested representation, and repair only the layer responsible for a failure.
 
-The design covers search, static, social video, connected TV, display, carousel, vertical, native/sponsored and audio work. When a task requires final media, the corresponding actual image, video or audio file and relevant inspection are required; a prompt, script or storyboard is not a substitute.
+## Claims, proof and commercial control
 
-## Business Building boundary
+Advertising starts from approved business decisions. It does not silently change the customer, offer, price, economics or whether paid acquisition is justified.
 
-Business Building or the consuming project's business owner decides the customer, offer, price, business-wide channel choice, economics and whether paid acquisition is justified. Advertising translates those approved decisions into a campaign; it must not quietly change the exchange to improve an ad metric.
+Keep these meanings separate:
 
 ```text
-approved business objective, offer and economics
-→ campaign brief and audience hypothesis
-→ message, claim and proof
-→ concepts and placement variants
-→ media, destination and test contracts
-→ evaluation, measurement and bounded repair
+approved business segment
+→ advertising audience hypothesis
+→ platform targeting representation
 ```
 
-See [System](docs/01-advertising-production-skills-system-spec.md) and [Workflows and artefacts](docs/02-advertising-production-skills-workflows-and-artifacts-spec.md).
+And keep these decisions separate:
 
-## Truthful and policy-aware advertising
+```text
+supported fact
+→ proposed claim
+→ claim/proof assessment
+→ creative expression
+→ review / approval
+→ publication authority
+→ observed performance
+```
 
-Unsupported claims, fake testimonials, false scarcity, misleading prices and hidden material qualifications fail review even when the creative is persuasive. Evidence, permission to use it, claim approval, creative selection, publication authority and observed performance are separate facts.
+Unsupported claims, fake testimonials, false scarcity, misleading prices and hidden material qualifications fail review even when the creative is persuasive. Platform acceptance is not blanket legal clearance, and a targeting signal is not proof that a hard exclusion is enforced.
 
-Keep the approved business segment, advertising hypothesis and platform targeting representation separate. Legal conclusions remain with the appropriate Legal owner. Current campaign facts, jurisdiction, category, platform and source dates must be checked for the actual use; platform acceptance is not blanket legal clearance.
+Business Building or the consuming project's business owner owns customer, offer, price, business-wide channel choice and economics. Advertising owns the campaign expression and learning system built from those approved inputs.
 
-## Installation
+## Install
 
-The skill packages now exist, but clean external installation and host-compatibility evidence are Stage 25 requirements and are **not yet claimed**. The intended project-scoped route uses the open Agent Skills installer with an exact tested installer version, host identifier and repository revision:
+Install the full Advertising workflow for Claude Code:
 
 ```bash
-: "${SKILLS_CLI_VERSION:?set the tested installer version}"
-: "${REVISION:?set the exact Advertising commit}"
-: "${AGENT:?set the tested host identifier}"
-
-SOURCE="https://github.com/sb-dev/advertising-production-skills/tree/${REVISION}"
-pnpm dlx "skills@${SKILLS_CLI_VERSION}" add "$SOURCE" --list
-pnpm dlx "skills@${SKILLS_CLI_VERSION}" add "$SOURCE" \
-  --skill advertising-build --skill advertising-evaluate \
-  --agent "$AGENT" --copy
+npx skills add sb-dev/advertising-production-skills \
+  --skill advertising-build \
+  --skill advertising-optimise \
+  --skill advertising-evaluate \
+  --skill advertising-pack-author \
+  --agent claude-code
 ```
 
-Do not infer compatibility from the installer merely listing an agent. See the [installation contract](docs/03-advertising-production-skills-repository-and-contracts-spec.md#6-installation-contract).
+For Codex, use `--agent codex` instead.
 
-## Quick start
+Inspect before installing:
 
-The first proving path is **E01: Local inspection search unit**. Its complete synthetic prompt is already preserved in [Stage 16](docs/research-logs/2026-09-10-stage-16-example-designs-and-prompts.md#e01-local-inspection-search-unit). Stage 23 must execute the core vertical before this README can present it as demonstrated capability.
+```bash
+npx skills add sb-dev/advertising-production-skills --list
+```
 
-A correct E01 execution produces five actual Markdown artefacts: a brief, claim-proof map, exact ad copy with counts, destination copy and evaluation of all permitted assemblies. A file saying PASS is not evidence by itself.
+Install only what a project needs:
+
+```bash
+npx skills add sb-dev/advertising-production-skills \
+  --skill advertising-build \
+  --skill advertising-evaluate \
+  --agent claude-code
+```
+
+Project-local installation is the default.
+
+## Quick start — Local inspection search unit
+
+Start with one bounded search advertisement and learn the core campaign-production loop without generating unnecessary media.
+
+```text
+Use advertising-build with local-service-lead-generation, then advertising-evaluate, for E01 in production/advertising/E01.
+
+This is a SYNTHETIC teaching exercise. Everything below is supplied fixture truth only, not a real business, testimonial, approval or campaign result. You may create the requested local artefacts. No paid generation, external upload, publication, account change, customer contact or media spend is authorised.
+
+SYN-E01-OFFER@1: Cycle Check offers one bicycle inspection for GBP 25 total, one-off. A written assessment is included; repairs and parts are not included and require a separate quote. Service is available only to adults in fictional service zones A and B, Tuesday to Saturday, 09:00–17:00 local fixture time. Two inspection appointments can be accepted per day. A requested appointment is not confirmed until the operator replies. No speed, safety-certification, savings or repair-success claim is supported.
+SYN-E01-PROOF@1 consists of those supplied offer, service and capacity facts only. Brand: plain, helpful, no pressure. Audience hypothesis: adults seeking a local bicycle assessment; no evidence establishes its prevalence. Business objective: qualified inspection requests within capacity. Advertising objective: communicate the inspection and its limits accurately. No historical results exist.
+Destination fixture: cycle-check.example/details, represented locally by destination-copy.md. It must repeat the inspection price, separate repair quotation, zones, hours and request/confirmation distinction. It is not a deployed URL.
+Exercise search profile: exactly 3 standalone headlines, each at most 30 characters including spaces, and exactly 2 descriptions, each at most 90 characters. All 3 x 2 headline/description combinations are possible. These are fixture constraints, not verified live platform limits.
+
+Produce brief.md with the relevant input/unknown/approval boundaries; claim-proof.md linking every material assertion to the two supplied records; ad-copy.md with the exact five strings and character counts; destination-copy.md; and evaluation.md inspecting all six possible combinations, commercial continuity and the CTA. Choose an appropriate truthful way to retain qualifications within the profile rather than hiding them in a destination alone. Record the actual audience hypothesis separately from the business segment and any proposed platform representation.
+
+Use a request-to-schedule CTA, not a guarantee of repair or availability. Do not broaden the zones, invent reviews or optimise to clicks. Identify the qualified-request event and capacity guardrail without claiming a tracking implementation. Prefer a compliant expression for review; do not manufacture human approval or launch readiness. Report actual local output paths and any unsatisfied requirement.
+```
+
+A first project should stay small:
+
+```text
+production/
+└── advertising/
+    └── E01/
+        ├── brief.md
+        ├── claim-proof.md
+        ├── ad-copy.md
+        ├── destination-copy.md
+        └── evaluation.md
+```
+
+The important behaviour is:
+
+```text
+approved commercial truth
+→ bounded campaign brief
+→ supported message / claim / proof
+→ exact advertisement
+→ destination continuity
+→ evaluation
+→ smallest sufficient repair
+```
+
+See [Local inspection search unit](examples/README.md#e01-local-inspection-search-unit).
 
 ## Learn by producing
 
-The public learning surface is fixed at **five levels × three primary examples = fifteen**. The prompts are complete; production evidence is added only when later stages actually run them.
+Progress through increasingly demanding advertising-production problems. Each level contains three complementary examples so the workflow demonstrates reusable campaign behaviour rather than one repeated format.
 
 ### Level 1 — Bounded advertising unit
 
-- [E01 Local inspection search unit](docs/research-logs/2026-09-10-stage-16-example-designs-and-prompts.md#e01-local-inspection-search-unit)
-- [E02 Recurring price in a static unit](docs/research-logs/2026-09-10-stage-16-example-designs-and-prompts.md#e02-recurring-price-in-a-static-unit)
-- [E03 A screenless B2B response](docs/research-logs/2026-09-10-stage-16-example-designs-and-prompts.md#e03-a-screenless-b2b-response)
+Prove precise commercial truth, claim support and destination continuity on compact units before broader campaign production.
+
+- **[E01 Local inspection search unit](examples/README.md#e01-local-inspection-search-unit)** — local search, scope and booking truth
+- **[E02 Recurring price in a static unit](examples/README.md#e02-recurring-price-in-a-static-unit)** — subscription/refund clarity in static creative
+- **[E03 A screenless B2B response](examples/README.md#e03-a-screenless-b2b-response)** — audio CTA and paid-work boundary
+
+```text
+approved facts → exact unit → destination → evaluation → local repair
+```
 
 ### Level 2 — Coherent creative test
 
-- [E04 A controlled search-copy comparison](docs/research-logs/2026-09-10-stage-16-example-designs-and-prompts.md#e04-a-controlled-search-copy-comparison)
-- [E05 Creator-native opening test](docs/research-logs/2026-09-10-stage-16-example-designs-and-prompts.md#e05-creator-native-opening-test)
-- [E06 Brand-linked display test](docs/research-logs/2026-09-10-stage-16-example-designs-and-prompts.md#e06-brand-linked-display-test)
+Add controlled alternatives and experiment design while keeping commercial truth fixed.
+
+- **[E04 A controlled search-copy comparison](examples/README.md#e04-a-controlled-search-copy-comparison)** — one changed opening, fixed offer
+- **[E05 Creator-native opening test](examples/README.md#e05-creator-native-opening-test)** — vertical video openings with shared body
+- **[E06 Brand-linked display test](examples/README.md#e06-brand-linked-display-test)** — brand association rather than generic recall
+
+```text
+fixed commercial baseline → controlled creative difference → test contract → evaluation
+```
 
 ### Level 3 — Complete campaign
 
-- [E07 One brand idea across display, CTV and audio](docs/research-logs/2026-09-10-stage-16-example-designs-and-prompts.md#e07-one-brand-idea-across-display-ctv-and-audio)
-- [E08 Qualification-led B2B campaign](docs/research-logs/2026-09-10-stage-16-example-designs-and-prompts.md#e08-qualification-led-b2b-campaign)
-- [E09 App availability, store promise and first useful action](docs/research-logs/2026-09-10-stage-16-example-designs-and-prompts.md#e09-app-availability-store-promise-and-first-useful-action)
+Take responsibility for coherent campaign production across creative, media, destination, measurement and specialist handoffs.
+
+- **[E07 One brand idea across display, CTV and audio](examples/README.md#e07-one-brand-idea-across-display-ctv-and-audio)** — one association across three modalities
+- **[E08 Qualification-led B2B campaign](examples/README.md#e08-qualification-led-b2b-campaign)** — narrow B2B fit, proof and capacity
+- **[E09 App availability, store promise and first useful action](examples/README.md#e09-app-availability-store-promise-and-first-useful-action)** — launch-state and retained-use continuity
+
+```text
+brief → concepts → selection → format production → media / destination / test → evaluation
+```
 
 ### Level 4 — Diagnose and repair campaign performance
 
-- [E10 Retargeting report with duplicate and ineligible outcomes](docs/research-logs/2026-09-10-stage-16-example-designs-and-prompts.md#e10-retargeting-report-with-duplicate-and-ineligible-outcomes)
-- [E11 Apparent fatigue caused by a changed delivery mix](docs/research-logs/2026-09-10-stage-16-example-designs-and-prompts.md#e11-apparent-fatigue-caused-by-a-changed-delivery-mix)
-- [E12 Repair a destination without changing the accepted advertisement](docs/research-logs/2026-09-10-stage-16-example-designs-and-prompts.md#e12-repair-a-destination-without-changing-the-accepted-advertisement)
+Interpret evidence before changing creative, isolate the responsible layer and preserve accepted work.
+
+- **[E10 Retargeting report with duplicate and ineligible outcomes](examples/README.md#e10-retargeting-report-with-duplicate-and-ineligible-outcomes)** — measurement and audience eligibility repair
+- **[E11 Apparent fatigue caused by a changed delivery mix](examples/README.md#e11-apparent-fatigue-caused-by-a-changed-delivery-mix)** — mix effects versus unsupported fatigue claims
+- **[E12 Repair a destination without changing the accepted advertisement](examples/README.md#e12-repair-a-destination-without-changing-the-accepted-advertisement)** — source authority and bounded destination correction
+
+```text
+observations → reconcile → diagnose layer → smallest repair → preserve learning
+```
 
 ### Level 5 — Full advertising-production thesis
 
-- [E13 Kakeibo consumer subscription launch thesis](docs/research-logs/2026-09-10-stage-16-example-designs-and-prompts.md#e13-kakeibo-consumer-subscription-launch-thesis)
-- [E14 One-person FDE consultancy thesis](docs/research-logs/2026-09-10-stage-16-example-designs-and-prompts.md#e14-one-person-fde-consultancy-thesis)
-- [E15 Production Skills ecosystem adoption and commercial thesis](docs/research-logs/2026-09-10-stage-16-example-designs-and-prompts.md#e15-production-skills-ecosystem-adoption-and-commercial-thesis)
+Combine business alignment, creative production, measurement, optimisation and cross-domain handoffs on complete campaign theses.
 
-Where a prompt requests PNG, MP4, WAV or an implemented representation, execution must produce and inspect that output. The eight pack showcases are a separate suite; stress tests do not replace the fifteen learning examples.
-
-## Project structure grows with the work
-
-A bounded search unit should stay small:
+- **[E13 Kakeibo consumer subscription launch thesis](examples/README.md#e13-kakeibo-consumer-subscription-launch-thesis)** — consumer subscription, trust and retained value
+- **[E14 One-person FDE consultancy thesis](examples/README.md#e14-one-person-fde-consultancy-thesis)** — high-consideration B2B qualification and capacity
+- **[E15 Production Skills ecosystem adoption and commercial thesis](examples/README.md#e15-production-skills-ecosystem-adoption-and-commercial-thesis)** — open-source adoption and paid education as separate paths
 
 ```text
-production/advertising/E01/
-├── brief.md
-├── claim-proof.md
-├── ad-copy.md
-├── destination-copy.md
-└── evaluation.md
+business objective → campaign thesis → multi-format production → measurement → diagnosis → bounded correction
 ```
 
-A complete campaign can add identifiable concepts, a semantic master, actual placement variants, media and measurement contracts, specialist return evidence and bounded repair records. Several logical records may share one file. Do not create global `draft/approved/final` trees or copy approved business truth into multiple editable locations.
+## Project structure grows with the campaign
+
+**One bounded advertising unit**  
+Use the brief, claim/proof map, exact creative, destination copy and evaluation.
+
+**Creative alternatives need comparison**  
+Add concept treatments, fixed/changed records and test contracts.
+
+**Several placements share one meaning**  
+Add a semantic master, placement variants and specialist production returns.
+
+**Campaign performance needs diagnosis**  
+Add source-separated measurement, lifecycle state, learning and before/after repair evidence.
+
+**Several production domains contribute**  
+Use domain-specific production areas:
+
+```text
+production/
+├── advertising/
+├── narrative/
+├── video/
+├── audio/
+└── product-or-destination/
+```
+
+Keep the structure lean:
+
+- approved business truth stays authoritative rather than being copied into competing editable records;
+- concepts and placement variants preserve parent meaning and provenance;
+- delivery, evidence validity, fatigue and succession remain separate states;
+- repair the smallest responsible layer instead of regenerating the campaign;
+- actual media masters remain distinct from placement/delivery variants.
 
 ## Skills
 
-| Skill | Responsibility |
-|---|---|
-| [`advertising-build`](skills/advertising-build/SKILL.md) | New briefs, concepts, copy, adaptations, media/test plans and campaign packages |
-| [`advertising-optimise`](skills/advertising-optimise/SKILL.md) | Results, diagnosis, fatigue, next tests and bounded correction |
-| [`advertising-evaluate`](skills/advertising-evaluate/SKILL.md) | Claims, proof, format, destination, test, measurement, policy and preservation audits |
-| [`advertising-pack-author`](skills/advertising-pack-author/SKILL.md) | Reusable campaign grammar and Extension Pack authoring/revision |
+### `advertising-build`
 
-Intent names are bounded workflow operations, not shell commands or Pactwright lifecycle stages. The canonical 33-intent ownership remains 13 build, 10 optimise, 9 evaluate and 1 pack-author.
+Build new advertising work from approved business inputs.
+
+Use it for campaign briefs, objectives, audience models, message and claim/proof maps, creative territories, concepts, specialist creative briefs, placement adaptation, media plans, experiments and offline launch packages.
+
+It owns advertising production decisions, not the underlying customer, offer, price or permission to spend.
+
+### `advertising-optimise`
+
+Interpret campaign observations and direct bounded improvement.
+
+Use it to ingest results, diagnose delivery, audience, creative, placement and destination problems, investigate fatigue, propose the next test, refresh creative and preserve learning.
+
+It reconciles measurement before efficacy claims and does not treat clicks, attribution or platform labels as automatic causal evidence.
+
+### `advertising-evaluate`
+
+Audit advertising independently of production.
+
+Use it to inspect claims, proof, format fit, destination continuity, experiment validity, measurement, policy context and preservation. It returns criterion-level findings and smallest repair ownership rather than one universal campaign score.
+
+Evaluation can fail a subject while completing successfully as an evaluation task.
+
+### `advertising-pack-author`
+
+Create or revise reusable Advertising Extension Packs.
+
+Use it when a repeated campaign problem needs a reusable production grammar rather than a one-off prompt. It checks existing core and catalogue coverage first, defines activation and precedence, and requires differential behaviour rather than cosmetic labels or provider wrappers.
 
 ## Extension Packs
 
-Eight grammars are fully specified but **not yet represented as implemented/mature runtime packs**:
+Advertising Extension Packs specialise campaign reasoning while explicit project requirements and approved work remain authoritative.
 
-1. `direct-response-performance-campaign`
-2. `brand-awareness-campaign`
-3. `b2b-demand-generation-campaign`
-4. `consumer-app-acquisition-campaign`
-5. `product-launch-campaign`
-6. `retargeting-and-reengagement-campaign`
-7. `local-service-lead-generation`
-8. `creator-native-social-campaign`
+The initial catalogue covers:
 
-See [Pack semantics](docs/05-advertising-production-customisation-packs-spec.md) and the [catalogue](docs/06-advertising-production-extension-pack-catalogue.md). Stage 24 must implement and execute their required comparisons before runtime maturity is claimed.
+- `direct-response-performance-campaign`
+- `brand-awareness-campaign`
+- `b2b-demand-generation-campaign`
+- `consumer-app-acquisition-campaign`
+- `product-launch-campaign`
+- `retargeting-and-reengagement-campaign`
+- `local-service-lead-generation`
+- `creator-native-social-campaign`
 
-## Execution layer and specialist handoffs
+A pack changes useful production behaviour, not merely tone or a platform name. See the [Extension Pack contract](docs/05-advertising-production-customisation-packs-spec.md) and [catalogue](docs/06-advertising-production-extension-pack-catalogue.md).
 
-Advertising owns campaign reasoning and integration. Narrative, visual, Video and Audio specialists own their craft; UI/UX and Software own destinations and implementation; Legal owns scoped legal conclusions. Account administration, rendering, campaign upload, bidding/spend, serving, data collection, tracking, attribution computation and hosting remain external operations.
+## Execution
 
-Selecting a specialist also selects that specialist's actual prerequisites, approval/locking semantics and retry limits. Advertising's concept preference cannot become another domain's human approval, and remaining campaign budget cannot override a narrower specialist retry rule. See the [cross-project review](docs/research-logs/2026-09-10-stage-21-cross-project-review.md).
+The Advertising skills decide **what campaign-production work is needed**. Existing specialist skills, tools and authorised systems execute it.
 
-Pactwright is optional and is not required for standalone Advertising use.
+- **Narrative Production Skills** — story/prose craft when campaign expression needs narrative structure
+- **Video Production Skills** — moving-image production and temporal evaluation
+- **Audio / Music Production Skills** — speech, sound and music production where required
+- **UI/UX Design Skills** — destination interaction contracts and user-state design
+- **Software Engineering Skills** — destination implementation, event collection and technical integration
+- **Legal Skills / qualified Legal owner** — scoped legal conclusions and legal-review returns
+- **Advertising platforms and operators** — account administration, upload, bidding/spend and serving
+- **Analytics / measurement owners** — collection, conversion tracking and attribution computation
+
+> **Use the least expensive representation that can resolve the current campaign uncertainty.**
+>
+> **Preserve approved business decisions and change only the layer that actually failed.**
 
 ## Measurement, optimisation and learning
 
-A complete test names its hypothesis, changed variables, comparison, primary metric, guardrails, downstream business metric, evidence threshold, confounders and decision rule. Counting units, attribution basis, cohort windows, maturity, uncertainty and source revisions stay visible.
+A complete test defines the hypothesis, changed variables, comparison, primary metric, guardrails, downstream business metric, evidence threshold, confounders and decision rule before results are interpreted.
 
-Platform conversions are not automatically unique qualified outcomes; attribution is not incrementality; revenue is not contribution; missing or immature data is not zero. Diagnose evidence and the responsible layer before refreshing creative.
+Keep platform observations, unique qualified outcomes, business verification and causal conclusions separate. Attribution is not automatically incrementality; revenue is not contribution; missing or immature data is not zero.
 
-## Benchmarks and evidence
+Optimisation preserves five distinct campaign facets:
 
-The [benchmark specification](docs/04-testing-and-benchmark-spec.md) keeps twelve dimensions separate: deterministic validation, creative quality, campaign reasoning, business alignment, claim/legal/policy validity, experiment quality, measurement quality, optimisation/fatigue, preservation/repair, pack behaviour, end-to-end production and installation integrity.
+```text
+delivery
+performance assessment
+evidence validity
+fatigue finding
+succession
+```
 
-The scaffold's deterministic repository checks are real; campaign benchmark, generated-media, pack-comparison and clean-install evidence remain unexecuted until their owning stages. See [benchmarks/README.md](benchmarks/README.md) and [bootstrap progress](docs/research-logs/README.md).
+A recommendation to pause is not an actual pause, and renaming an asset does not reset audience memory.
 
-## Canonical stress tests
+## Testing and benchmarks
 
-The [Stage 17 contracts](docs/research-logs/2026-09-10-stage-17-canonical-advertising-stress-tests.md) cover:
+Advertising quality is evaluated across independent dimensions rather than one universal score:
 
-- Kakeibo consumer trust, subscription/refund consistency, financial sensitivity and authorised targeting;
-- one-person FDE consultancy proof, qualification, capacity and longer sales cycles;
-- Production Skills ecosystem adoption/commercial separation and developer-facing truthfulness.
+- deterministic campaign validation
+- creative quality
+- campaign reasoning
+- business alignment
+- claim / legal / policy validity
+- experiment quality
+- measurement quality
+- optimisation / fatigue
+- preservation / repair
+- Extension Pack behaviour
+- end-to-end campaign production
+- installation integrity
 
-Use the [FDE-17@2 correction](docs/research-logs/2026-09-10-stage-17-acceptance.md), not the superseded historical FDE prompt.
+See the [testing and benchmark specification](docs/04-testing-and-benchmark-spec.md) and [benchmark entry point](benchmarks/README.md).
 
 ## Documentation
 
-- [01 System](docs/01-advertising-production-skills-system-spec.md)
-- [02 Workflows and artefacts](docs/02-advertising-production-skills-workflows-and-artifacts-spec.md)
-- [03 Repository and contracts](docs/03-advertising-production-skills-repository-and-contracts-spec.md)
-- [04 Testing and benchmark](docs/04-testing-and-benchmark-spec.md)
-- [05 Customisation packs](docs/05-advertising-production-customisation-packs-spec.md)
-- [06 Extension Pack catalogue](docs/06-advertising-production-extension-pack-catalogue.md)
-- [Research logs and bootstrap progress](docs/research-logs/README.md)
+### Specifications
+
+- [System specification](docs/01-advertising-production-skills-system-spec.md)
+- [Workflows and artefacts](docs/02-advertising-production-skills-workflows-and-artifacts-spec.md)
+- [Repository and contracts](docs/03-advertising-production-skills-repository-and-contracts-spec.md)
+- [Testing and benchmark](docs/04-testing-and-benchmark-spec.md)
+- [Extension Pack contract](docs/05-advertising-production-customisation-packs-spec.md)
+- [Extension Pack catalogue](docs/06-advertising-production-extension-pack-catalogue.md)
 
 ## Boundaries
 
-This project is not a CRM, ad server, DSP, customer-data platform, attribution vendor, universal audience graph, autonomous media buyer or legal compliance authority. It does not replace Business Building or own the consuming project's product truth.
+Advertising Production Skills is not a replacement for Business Building, a generic marketing department, CRM, email platform, DSP, ad server, autonomous media-spend agent, attribution vendor, customer-data platform, universal audience graph, legal compliance authority or one-number campaign scorer.
 
-Keep private campaign, customer and financial data in authorised consumer storage. Publication, recipient disclosure, provider costs, destructive changes and media spend each need their own applicable authority.
+Campaign-specific commercial records, customer data, account state and credentials stay in authorised consuming-project systems rather than this reusable skills repository.
 
 ## Contributing
 
-See [CONTRIBUTING.md](CONTRIBUTING.md). Run `pnpm validate` and `pnpm test` before proposing repository changes. Public issues must not contain credentials, private audience records or confidential customer material.
+See [CONTRIBUTING.md](CONTRIBUTING.md). Preserve approved commercial and claim semantics, keep examples synthetic unless a source is genuinely public and appropriate, and add regression protection when a structural defect escapes.
 
 ## Licence
 
-MIT. See [LICENSE](LICENSE). Third-party asset, font, voice, model/provider and branding rights remain separate from the repository software/content licence.
+MIT. See [LICENSE](LICENSE).
+
+Third-party provider, asset, voice, font, model and branding rights remain separate from the repository licence.

@@ -1,25 +1,73 @@
-# Progressive examples
+# Learn by Producing
 
-execution_status: not-run
+Advertising Production Skills uses fifteen primary examples across five levels of increasing production responsibility. The examples are deliberately complementary: each level exercises a different combination of campaign reasoning, creative production, measurement, preservation and repair.
 
-This scaffold preserves the exact fifteen primary example identities and complete prompt sources selected in Stage 16. Stage 22 does not manufacture outputs or benchmark results. Stage 24 must execute every example at its declared fidelity and persist actual inputs, outputs, inspections and repairs.
+## Level 1 — Bounded advertising unit
 
-| ID | Level | Example | Complete prompt source |
-|---|---|---|---|
-| E01 | L1 | Local inspection search unit | [prompt](../docs/research-logs/2026-09-10-stage-16-example-designs-and-prompts.md#e01-local-inspection-search-unit) |
-| E02 | L1 | Recurring price in a static unit | [prompt](../docs/research-logs/2026-09-10-stage-16-example-designs-and-prompts.md#e02-recurring-price-in-a-static-unit) |
-| E03 | L1 | A screenless B2B response | [prompt](../docs/research-logs/2026-09-10-stage-16-example-designs-and-prompts.md#e03-a-screenless-b2b-response) |
-| E04 | L2 | A controlled search-copy comparison | [prompt](../docs/research-logs/2026-09-10-stage-16-example-designs-and-prompts.md#e04-a-controlled-search-copy-comparison) |
-| E05 | L2 | Creator-native opening test | [prompt](../docs/research-logs/2026-09-10-stage-16-example-designs-and-prompts.md#e05-creator-native-opening-test) |
-| E06 | L2 | Brand-linked display test | [prompt](../docs/research-logs/2026-09-10-stage-16-example-designs-and-prompts.md#e06-brand-linked-display-test) |
-| E07 | L3 | One brand idea across display, CTV and audio | [prompt](../docs/research-logs/2026-09-10-stage-16-example-designs-and-prompts.md#e07-one-brand-idea-across-display-ctv-and-audio) |
-| E08 | L3 | Qualification-led B2B campaign | [prompt](../docs/research-logs/2026-09-10-stage-16-example-designs-and-prompts.md#e08-qualification-led-b2b-campaign) |
-| E09 | L3 | App availability, store promise and first useful action | [prompt](../docs/research-logs/2026-09-10-stage-16-example-designs-and-prompts.md#e09-app-availability-store-promise-and-first-useful-action) |
-| E10 | L4 | Retargeting report with duplicate and ineligible outcomes | [prompt](../docs/research-logs/2026-09-10-stage-16-example-designs-and-prompts.md#e10-retargeting-report-with-duplicate-and-ineligible-outcomes) |
-| E11 | L4 | Apparent fatigue caused by a changed delivery mix | [prompt](../docs/research-logs/2026-09-10-stage-16-example-designs-and-prompts.md#e11-apparent-fatigue-caused-by-a-changed-delivery-mix) |
-| E12 | L4 | Repair a destination without changing the accepted advertisement | [prompt](../docs/research-logs/2026-09-10-stage-16-example-designs-and-prompts.md#e12-repair-a-destination-without-changing-the-accepted-advertisement) |
-| E13 | L5 | Kakeibo consumer subscription launch thesis | [prompt](../docs/research-logs/2026-09-10-stage-16-example-designs-and-prompts.md#e13-kakeibo-consumer-subscription-launch-thesis) |
-| E14 | L5 | One-person FDE consultancy thesis | [prompt](../docs/research-logs/2026-09-10-stage-16-example-designs-and-prompts.md#e14-one-person-fde-consultancy-thesis) |
-| E15 | L5 | Production Skills ecosystem adoption and commercial thesis | [prompt](../docs/research-logs/2026-09-10-stage-16-example-designs-and-prompts.md#e15-production-skills-ecosystem-adoption-and-commercial-thesis) |
+### E01. Local inspection search unit
 
-Do not add generated media, claimed approvals or results to an example directory unless that execution actually occurred and its evidence is retained.
+Local search advertising that keeps inspection pricing separate from repairs and keeps a request separate from a confirmed booking.
+
+### E02. Recurring price in a static unit
+
+A typography-led static advertisement that keeps recurring price, refund and cancellation terms truthful without inventing a free trial.
+
+### E03. A screenless B2B response
+
+An audio advertisement that communicates a free fit call without implying free implementation or guaranteed technical outcomes.
+
+## Level 2 — Coherent creative test
+
+### E04. A controlled search-copy comparison
+
+Two search-copy treatments with one deliberately changed opening and the same commercial baseline, destination and measurement contract.
+
+### E05. Creator-native opening test
+
+Two vertical-video openings with a fixed shared body, truthful illustrative-interface handling and no fabricated creator endorsement.
+
+### E06. Brand-linked display test
+
+A controlled display comparison that measures the intended brand association rather than generic recall or clicks.
+
+## Level 3 — Complete campaign
+
+### E07. One brand idea across display, CTV and audio
+
+One brand association carried coherently through clickable, non-clickable and screenless placements.
+
+### E08. Qualification-led B2B campaign
+
+A priced B2B workshop campaign that protects narrow fit, proof limits, monthly capacity and qualified-enquiry meaning.
+
+### E09. App availability, store promise and first useful action
+
+A consumer-app campaign that keeps availability, recurring price, store promise and retained-use definitions coherent through a release delay.
+
+## Level 4 — Diagnose and repair campaign performance
+
+### E10. Retargeting report with duplicate and ineligible outcomes
+
+A measurement and audience diagnosis that separates duplicated events from eligibility and suppression failures before touching accepted creative.
+
+### E11. Apparent fatigue caused by a changed delivery mix
+
+A performance diagnosis that distinguishes aggregate deterioration from a changed placement mix and avoids unsupported fatigue conclusions.
+
+### E12. Repair a destination without changing the accepted advertisement
+
+A bounded destination repair that follows the authoritative commercial source and preserves the accepted advertisement byte-for-byte.
+
+## Level 5 — Full advertising-production thesis
+
+### E13. Kakeibo consumer subscription launch thesis
+
+A full consumer-subscription campaign thesis combining truth, creative development, acquisition, retained-value measurement and bounded claim repair.
+
+### E14. One-person FDE consultancy thesis
+
+A high-consideration B2B campaign thesis where qualification quality, proof and scarce delivery capacity matter more than raw lead volume.
+
+### E15. Production Skills ecosystem adoption and commercial thesis
+
+A developer-facing thesis that keeps no-charge software adoption and separately paid education distinct in messaging, measurement and economics.

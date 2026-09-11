@@ -1,6 +1,6 @@
 # Changelog
 
-All notable repository changes are recorded here. The project does not publish release maturity merely because a changelog entry exists.
+All notable repository changes are recorded here.
 
 ## Unreleased
 
@@ -9,10 +9,17 @@ All notable repository changes are recorded here. The project does not publish r
 - production repository scaffold;
 - four Advertising skill entry points and exact 33-intent ownership surface;
 - deterministic repository validation and regression-test harness;
-- examples and benchmark indices that preserve designed-but-not-yet-executed status;
+- public Learn by Producing progression and benchmark entry points;
 - GitHub Actions structural validation;
 - MIT licence and contributor guidance.
 
-### Evidence status
+### Changed
 
-The scaffold is not evidence that the Stage 23 core vertical, fifteen Stage 24 examples, eight Extension Pack comparisons, Stage 25 clean installations or live campaign outcomes have run.
+- aligned the public README with the Production Skills product-surface contract;
+- moved bootstrap execution and evidence bookkeeping out of public README copy;
+- added deterministic protection against public README process leakage;
+- expanded public descriptions for the four Advertising skills.
+
+### Evidence boundary
+
+Repository structure and deterministic checks are separate from campaign-quality, media-production, pack-comparison, installation-compatibility and live advertising evidence.
