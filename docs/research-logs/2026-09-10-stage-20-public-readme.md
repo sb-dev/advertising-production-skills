@@ -128,6 +128,23 @@ A fulfilled E01 run returns five actual Markdown files: the brief, claim-proof m
 
 Required media is stated in each prompt. Where it asks for PNG, MP4 or WAV, execution must create and inspect that file; plans alone are incomplete. The eight pack showcases are a separate suite, and source-aware stress tests do not replace these fifteen learning exercises.
 
+## Project structure that grows with the work
+
+Start with the files the task actually needs. E01's intended consumer workspace is:
+
+```text
+production/advertising/E01/
+├── brief.md
+├── claim-proof.md
+├── ad-copy.md
+├── destination-copy.md
+└── evaluation.md
+```
+
+This is a requested output layout, not evidence that the exercise has run. A complete campaign can add identifiable concepts, a semantic master, actual placement variants, media and measurement contracts, returned specialist evidence and bounded repair records. Several logical records can share one file; create directories only when their contents make the work easier to inspect.
+
+Reuse exact approved business, brand and source records rather than copying another editable price or customer definition. Keep actual generated media beside its provenance and evaluation, distinguish masters from delivery variants, and retain before/after evidence for the affected repair. Unchanged work does not need a new copy or a global draft/approved/final directory tree.
+
 ## Skills
 
 All four entries are specified, not claimed as installed or benchmarked at this revision.
@@ -165,6 +182,8 @@ Explicit campaign requirements and approved decisions take precedence over a sel
 Use the consuming project's existing host, authorised tools and versioned campaign files. Advertising owns production reasoning and integration, while Narrative, visual, Video and Audio specialists supply craft; UI/UX and Software supply destinations and instrumentation; Legal supplies scoped legal conclusions.
 
 External systems own account administration, rendering, campaign upload, bidding/spend, serving, data collection, tracking, attribution computation and hosting. Providers researched in the design are not installed integrations or blanket recommendations. A required tool, output or permission that is absent remains a specific unresolved dependency, not an invented successful handoff.
+
+Selecting a specialist also selects its actual prerequisites and approval, locking and retry rules. Advertising's concept preference cannot become that specialist's human approval, and remaining campaign budget cannot override a narrower retry limit. Check the current installed contract before invoking it. The combined Audio bootstrap does not by itself replace the existing Music implementation; an actual migration and capability result is required. See the [cross-project review](2026-09-10-stage-21-cross-project-review.md) for the inspected interfaces and evidence limits.
 
 Pactwright composition is optional. It may supply a Contract and receive domain Evidence; it does not replace Advertising's evaluation, and ordinary use must remain standalone. No optional integration is claimed to have been tested at this revision.
 
